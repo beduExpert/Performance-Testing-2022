@@ -50,6 +50,7 @@ http://jmeter-plugins.org/downloads/all/
 JMETER_INSTALL_DIR/bin/jmeter.properties en la línea: #jmeter.save.saveservice.thread_counts= true
 
 descomentarla y verificar que esté true
+
 <img src="https://user-images.githubusercontent.com/22419786/154818849-07375a5d-f62c-4058-9da9-a173a3a636d0.jpg" align="center" height="160">
 
 **Certificado**
@@ -76,6 +77,9 @@ Ir a la pestaña “Entidades de certificación raíz de confianza” > “Impor
 Importar el certificado desde esta ruta
 
 **Ejecución**
-En el directorio bin abrir el archivo “jmeter.bat”
+* En el directorio bin abrir el archivo “jmeter.bat”
+* 
+![S1-15JMeterBat](https://user-images.githubusercontent.com/22419786/154819264-2b73e11b-8159-4dfe-8941-4214eb1b64f9.jpg)
 
+* Se abre una ventana así, la información de la consola es un mensaje informativo.
 ![S1-15JMeterBat](https://user-images.githubusercontent.com/22419786/154819235-f965b5ad-6b8c-4870-9f02-ae8a90b2ec3a.jpg)
