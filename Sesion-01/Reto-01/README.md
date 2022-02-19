@@ -1,59 +1,28 @@
-# Reto #: Nombre del reto
+# Reto #1: Creación y ejecución de un test plan básico
 
 ## Objetivo
 
-- Implementar los dos tipos de errores y gestionarlos mediante las opciones del dashboard de Crashlytics.
+Ejecutar un plan de pruebas de performance en JMeter grabando diferentes acciones en un navegador web y presentar sus resultados.
 
 ## Desarrollo
 
-Ya conociste el primer tipo de error: el producido en el Ejemplo 2. Este evento es de tipo Falla y es provocado cuando la app obtiene una excepción y no sabe cómo responder, por lo que el resultado es el cierre inesperado. 
+El reto en esta sesión consiste en crear un plan de pruebas en JMeter partiendo de que ya se haya hecho la instalación de la herramienta junto con sus requisitos previos de acuerdo a lo explicado en el tema 3 de esta sesión. 
 
-El segundo tipo es Error recuperable. Este tipo sucede cuando agregamos un bloque de try / catch. Si el código dentro del try falla, es posible almacenar la excepción y Crashlytics enviará el error en algún momento, pues este error no tiene la misma prioridad que el otro y tardará más en enviarlo.
+En este tema (No. 4) vimos como crear un plan de pruebas básico utilizando un template de prueba que nos trae la estructura que debe tener un plan de pruebas para sus escenarios de prueba, scripts y resultados de ejecución.
 
-Notas: 
-- Crashlytics guarda máximo 64 kb del log en memoria para evitar saturar la app.
-- Los errores pueden tardar hasta 5 minutos en aparecer, por lo que debe tenerse paciencia si no aparecen rápido.
+**Reto**
 
-Ahora que reconoces los tipos de errores y las formas de gestionarlos, sigue las indicaciones expuestas a continuación para resolver el reto 2.
+- Se debe identificar una transaccion de cualquier página web para tener lista al momento de iniciar la grabación del escenario de prueba, puede ser un login, un registro, el ingreso a un homepage, etc.
+- Crear un test plan en JMeter junto con su template de Recorder.
+- Cambiar el nombre del ThreadGroup identificando que tipo de transacción es la que se va a probar. 
+- Incluir 15 números de usuarios (Threads) con 1 segundo de tiempo en cada petición
+- Realizar la grabación en la página escogida
+- Ejecutar el escenario de prueba tal cual como se grabó
+- Evidencia en el visor del arbol de resultados del HTTP(S) Script Recorder
 
-1. Genera un error recuperable dentro del clickListener del botón Crash.
-2. Después, genera una falla en el mismo evento, de modo que cierre la app.
-3. Gestiona los errores en Crashlytics:
-    - **a)** Agrega notas (Comentarios) a los errores generados, previamente
-    - **b)** Silencia el error indicando que ya corregiste el error y no tiene caso que te siga notificando, por lo que es posible cancelar los avisos.
-    - **c)** Cierra el error indicando que ya fue solucionado.
 
-    </br>
+**Solución**
+  
+La solución a este reto es presentar el resultado de la ejecución con pasos exitosos y/o fallidos en el visor del arbol de resultados tal como se evidencia en la siguiente imágen.
 
-<details>
-    <summary>Solución 1-2</summary>
-    
-  ```kotlin
-  binding.btnCrash.setOnClickListener {
-  //1
-    try {
-        Log.e(TAG, "handleClick: " + 0 / 0)
-    } catch (e: Exception) {
-        FirebaseCrashlytics.getInstance().recordException(e)
-    }
-  //2
-    throw RuntimeException("Test Crash") // Force a crash
-  }
-  ```
-</details>
-
-  </br>
-
-<details>
-  <summary>Solución 3</summary>
-a)
-    <img src="assets/01.png" width="50%"/>
-
-b)
-    <img src="assets/02.png" width="50%"/>
-    
-c)
-    <img src="assets/03.png" width="50%"/>
-</details>
-
-</br>
+![Imagen21](https://user-images.githubusercontent.com/22419786/154822063-55146442-0899-4e66-b3bc-6695821b8a02.png)
