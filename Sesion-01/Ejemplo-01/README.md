@@ -78,7 +78,7 @@ Importar el certificado desde esta ruta
 
 **Ejecución**
 * En el directorio bin abrir el archivo “jmeter.bat”
-* 
+
 ![S1-15JMeterBat](https://user-images.githubusercontent.com/22419786/154819264-2b73e11b-8159-4dfe-8941-4214eb1b64f9.jpg)
 
 * Se abre una ventana así, la información de la consola es un mensaje informativo.
