@@ -16,6 +16,4 @@ En este tema (No. 4) vimos como crear un plan de pruebas básico utilizando un t
 - Crear un test plan en JMeter junto con su template de Recorder.
 - Cambiar el nombre del ThreadGroup identificando que tipo de transacción es la que se va a probar. 
 - Incluir 15 números de usuarios (Threads) con 1 segundo de tiempo en cada petición
-- Realizar la grabación en la página escogida
-- Ejecutar el escenario de prueba tal cual como se grabó
-- Evidencia en el visor del arbol de resultados del HTTP(S) Script Recorder
+- Realizar una prueba de rendimiento con esta información y presentar resultados
