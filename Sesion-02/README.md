@@ -1,24 +1,26 @@
-## Sesión 2: Nombre de sesión 🤖
+## Sesión 2: Grabando Test Scripts 🤖
 
 <img src="../images/android-kotlin.png" align="right" height="120" hspace="10">
 <div style="text-align: justify;">
 
 ### 1. Objetivos :dart: 
 
-- Reconocer el IDE Android Studio con el que desarrollan aplicaciones móviles.
-- Conocer la estructura de un proyecto android y todos los archivos generados por el IDE
+- Configurar el navegador proxy para uso de la grabadora de JMeter, de manera que se puedan hacer las solicitudes de las peticiones del navegador.
+- Elaborar un plan de pruebas incluyendo los elementos necesarios para el funcionamiento de las pruebas.
+- Configurar el navegador proxy y JMeter cuando se requiere capturar tráfico HTTPS con una aplicación web con cifrado SSL.
+- Grabar scrips de prueba con herramientas propias de grabación integradas a JMeter.
 
 ### 2. Contenido :blue_book:
 
-Android Studio te ayudará a desarrollar tu app más productivamente a escala. Android Studio ofrece las herramientas más rápidas para crear apps de Android. Codifica más rápido. Codifica con seguridad. Crea el mejor código. Elimina tareas tediosas. Compila sin límites.
+Existen diferentes formas de grabación de scripts para pruebas de rendimiento, unas hechas por herramientas propias de grabación, donde todo lo que se graba tal cual queda pero es más complejo de modificar sus acciones, y grabación directamente desde JMeter controlando los pasos y acciones depurando la grabación, para este tipo de grabaciones es necesaria la configuración del navegador proxy para la correcta comunicacion a las peticiones del navegador, en esta sesión pondremos en práctica esta configuración para páginas HTTP y con cifrado SSL para HTTPS.
 
 ---
 
 <img src="images/tools.png" align="right" height="90"> 
 
-#### <ins>Tema 1</ins>
+#### <ins>Tema 1: Configuración Proxy</ins>
 
-Se detalla como crear un proyecto android desde nuestra IDE __Android Studio__, viendo el significado de los distintos campos y opciones para su configuración.
+Se detalla como configurar el navegador proxy tanto para Chrome, como Safari, como Firefox..
 
 - [**`EJEMPLO 1`**](./Ejemplo-01)
 
@@ -26,19 +28,21 @@ Se detalla como crear un proyecto android desde nuestra IDE __Android Studio__, 
 
 <img src="images/structure.png" align="right" height="90"> 
 
-#### <ins>Tema 2</ins>
+#### <ins>Tema 2: Configuración JMeter (Sin uso de Template)</ins>
 
-Una vez que el proyecto está creado, la estructura o forma en la que se organiza es de suma importancia. No sólo nos ayuda a mantener nuestro código organizado, sino que también es importante para el funcionamiento de nuestra nueva app.
+PENDIENTE!!!
 
 - [**`EJEMPLO 2`**](./Ejemplo-02)
-- [**`RETO 1`**](./Reto-01)
+  
 ---
 
 <img src="images/emulator.jpg" align="right" height="90"> 
 
-#### <ins>Tema 3</ins>
+#### <ins>Tema 3: Grabación de secuencia de comandos para dispositivos móviles</ins>
 
-Ahora que tenemos mayor conocimiento de nuestro proyecto, vamos a configurar un emulador de algún dispositivo móvil para poder correr nuestra aplicación! :iphone:. Es decir, vamos a correr un dispositivo móvil virtual en nuestra computadora para simular la funcionalidad de nuestra app.
+JMeter también se puede usar para grabar pruebas de rendimiento móviles. La grabación de scripts móviles es muy similar a la grabación de scripts de aplicaciones web.
+  
+ - [**`EJEMPLO 3`**](./Ejemplo-03) 
 
 **Nota al Experto:**
   
