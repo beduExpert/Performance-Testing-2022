@@ -1,4 +1,4 @@
-# Ejemplo # 3 - Ajustes a dispositivos móviles para grabación
+# Ejemplo # 3 - Pasos para grabación de tráfico HTTPS
 
 ## Objetivo
 
@@ -6,27 +6,30 @@
 
 ## Desarrollo
 
+Si su aplicación web utiliza el cifrado SSL, necesita capturar el tráfico HTTPS en lugar de HTTP.
+Para registrar el tráfico HTTPS con JMeter, debe configurar los certificados SSL.
 
-**Configuración del teléfono móvil**
+**Configure su proxy SSL**
 
-Una vez preparada la configuración de JMeter, incluido el elemento JMeter "HTTP (S) Test Script Recording" iniciado en un puerto específico, puede configurar su teléfono móvil para enviar una
-solicitud a la aplicación web que está probando a través del proxy de JMeter. 
+1. Asegúrese de que el proxy SSL esté configurado de la misma manera que el proxy HTTP:
 
-**IOS:**
-* Configuración -> Wi-Fi
-* Haga clic en la red conectada.
-* Ir a la sección de configuración "HTTP PROXY"
-* Haga clic en la pestaña "Manual"
-* Configure la IP de la computadora La aplicación JMeter se está ejecutando en "Servidor" 
-* Configure el puerto que se especifica en la "Grabación de script de prueba HTTP (S)" en "Puerto"
+<img width="403" alt="1 proxy" src="https://user-images.githubusercontent.com/22419786/155261737-6b2613cf-cf37-4e47-8909-9e5efbeed6ff.png">
 
-**Android:**
+**Configurar JMeter**
 
-* Configuración -> Wi-Fi
-* Haga clic en la red conectada y haga clic en la opción 'Modificar red'
-* Haga clic en la casilla de verificación "Opciones avanzadas"
-* Establezca la opción "Proxy" en "Manual"
-* Establezca el "Nombre de host del proxy" como la dirección IP de su computadora y el "Puerto de proxy" como se especifica en la configuración de "HTTP (S) Test Script Recording" en "Puerto"
-* Clic en Guardar"
+2. Inicie la grabación del script utilizando la función "Plantilla de grabación JMeter" como se explica en el ejemplo "Grabación de script con la función de plantilla JMeter".
+3. Después de abrir la aplicación web, verá un mensaje sobre una conexión no segura. Para continuar, solo necesita aceptar el certificado ficticio de JMeter:
 
-Ahora puede comenzar a ejecutar la aplicación en su dispositivo móvil. Las solicitudes se registrarán en JMeter.
+* Haga clic en 'Avanzado'
+* Haga clic en 'Agregar excepción ...'
+* Desmarque 'Almacenar permanentemente esta excepción'
+* Haga clic en 'Confirmar excepción de seguridad'
+
+<img width="444" alt="2 excepcion" src="https://user-images.githubusercontent.com/22419786/155261817-a9fcaa4a-5328-4237-adbe-0e83dcf782c5.png">
+
+<img width="446" alt="3 location" src="https://user-images.githubusercontent.com/22419786/155261842-8c677321-6ef9-4ad1-bbd5-7b9e9ed5bce7.png">
+
+4. Si ve el mensaje “Este sitio proporciona una identificación válida y verificada. No es necesario agregar una excepción ". Mensaje de advertencia: debe borrar el historial del
+navegador de su aplicación, incluidas las cookies, el caché y los datos de sitios web sin conexión. Luego, proceda de nuevo con los mismos pasos.
+
+Este enfoque también funciona para la grabación de scripts móviles, ya que el certificado JMeter debe instalarse solo en el host que se está utilizando para ejecutar JMeter.
