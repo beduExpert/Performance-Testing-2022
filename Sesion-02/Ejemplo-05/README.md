@@ -1,4 +1,4 @@
-# Ejemplo # 3 - Ajustes a dispositivos móviles para grabación
+# Ejemplo # 5 - Herramientas de grabación directamente
 
 ## Objetivo
 
@@ -6,27 +6,30 @@
 
 ## Desarrollo
 
+**Grabación de secuencias de comandos con la extensión de Chrome BlazeMeter**
 
-**Configuración del teléfono móvil**
+Hasta ahora hemos cubierto las formas básicas de registrar escenarios de prueba. Pero una de las maneras más rápidas y fáciles de grabar sus scripts de rendimiento, que también es gratis, es usar la extensión Chrome de BlazeMeter Recorder . Estas grabaciones se pueden ejecutar en JMeter o en BlazeMeter.
 
-Una vez preparada la configuración de JMeter, incluido el elemento JMeter "HTTP (S) Test Script Recording" iniciado en un puerto específico, puede configurar su teléfono móvil para enviar una
-solicitud a la aplicación web que está probando a través del proxy de JMeter. 
+La razón por la que la extensión es tan útil es que le permite grabar scripts de rendimiento desde su navegador sin tener que configurar su proxy.
 
-**IOS:**
-* Configuración -> Wi-Fi
-* Haga clic en la red conectada.
-* Ir a la sección de configuración "HTTP PROXY"
-* Haga clic en la pestaña "Manual"
-* Configure la IP de la computadora La aplicación JMeter se está ejecutando en "Servidor" 
-* Configure el puerto que se especifica en la "Grabación de script de prueba HTTP (S)" en "Puerto"
+<img width="239" alt="1  blazemeter grab" src="https://user-images.githubusercontent.com/22419786/155262087-5076c731-2116-46a1-a772-d03e04c6fea6.png">
 
-**Android:**
+Para crear una nueva secuencia de comandos de rendimiento:
+1. Abre la grabadora desde tu Chrome
+2. Ingrese un nombre de prueba en el campo superior
+3. Comience a grabar haciendo clic en el botón de grabación, en forma de círculo, y realice las acciones web que desea grabar. Todas sus peticiones serán capturadas. Blazemeter
+Chrome Extension también admite la grabación de tráfico HTTPS.
+4. Después de terminar de grabar, haga clic en el botón de detener, en forma de un cuadrado. También puede pausar su grabación y luego reanudarla, así como editarla, en formato .jmx o JSON, o en la nube.
+5. Exporte su grabación: para ejecutar la prueba en JMeter, exporte al formato .jmx haciendo clic en el botón .jmx. Para ejecutar la prueba en BlazeMeter, haga clic en 'jugar'.
 
-* Configuración -> Wi-Fi
-* Haga clic en la red conectada y haga clic en la opción 'Modificar red'
-* Haga clic en la casilla de verificación "Opciones avanzadas"
-* Establezca la opción "Proxy" en "Manual"
-* Establezca el "Nombre de host del proxy" como la dirección IP de su computadora y el "Puerto de proxy" como se especifica en la configuración de "HTTP (S) Test Script Recording" en "Puerto"
-* Clic en Guardar"
+**Grabación de guiones con BadBoy**
 
-Ahora puede comenzar a ejecutar la aplicación en su dispositivo móvil. Las solicitudes se registrarán en JMeter.
+Otra herramienta de grabación útil de terceros es BadBoy. Sin embargo, funciona solo para el sistema operativo Windows. Para crear una nueva secuencia de comandos de rendimiento:
+
+1. Instala BadBoy aquí
+2. Ingrese la URL bajo prueba en la barra de direcciones
+
+<img width="609" alt="2  badboy" src="https://user-images.githubusercontent.com/22419786/155262267-80985e33-4a95-4c50-9a79-4f7948ffd010.png">
+
+3. Presione el botón de grabación, con forma de círculo rojo y realice las acciones que desea capturar.
+4. Exporte su script a JMeter - Archivo -> Exportar a JMeter 
