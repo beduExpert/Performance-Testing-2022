@@ -26,8 +26,13 @@ Chrome Extension también admite la grabación de tráfico HTTPS.
 
 Otra herramienta de grabación útil de terceros es BadBoy. Sin embargo, funciona solo para el sistema operativo Windows. Para crear una nueva secuencia de comandos de rendimiento:
 
-1. Instala BadBoy aquí
-2. Ingrese la URL bajo prueba en la barra de direcciones
+1. Instala BadBoy de su sitio oficial http://www.badboy.com.au
+
+Consejo: Habrá una verificación de correo electrónico del usuario cuando se descargue desde el sitio web oficial, simplemente continúe saltando y simplemente descargue
+
+Instalación: Es lo mismo que el programa de instalación normal de Windows, simplemente no se preocupe por el siguiente paso; una vez completada la instalación, normalmente habrá accesos directos de badboy en el escritorio y en el menú de inicio. De lo contrario, busque el archivo badboy.exe en el directorio de instalación de badboy y haga doble clic para iniciar.
+
+2. Inicio: después de iniciar badboy, la interfaz es la siguiente
 
 <img width="609" alt="2  badboy" src="https://user-images.githubusercontent.com/22419786/155262267-80985e33-4a95-4c50-9a79-4f7948ffd010.png">
 
