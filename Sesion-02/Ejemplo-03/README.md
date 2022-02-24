@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-* PENDIENTE!!!
+* Presentar la configuración en JMeter a nivel de tráfico HTTPS.
 
 ## Desarrollo
 
