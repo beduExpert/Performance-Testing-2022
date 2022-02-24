@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-* Presentar la configuración en JMeter a nivel de tráfico HTTPS.
+Presentar la configuración en JMeter a nivel de tráfico HTTPS teniendo en cuenta la configuración del Proxy SSL.
 
 ## Desarrollo
 
