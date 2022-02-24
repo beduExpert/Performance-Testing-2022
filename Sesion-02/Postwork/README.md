@@ -1,4 +1,4 @@
-# Sesión # 2 - Grabando Test Scripts: 
+# Sesión # 2 - Grabando Test Scripts
 
 ## :dart: Objetivos
 
@@ -10,7 +10,7 @@
 
 En esta sesión hemos visto que existen herramientas de grabación externas a JMeter pero que se integran con esta para la ejecución de pruebas de rendimiento, 2 de estas son BlazeMeter y BadBoy.
 
-Iniciemos: 
+**Iniciemos:
 
 * Selecciona una de estas dos herramientas (con la que te sientas más cómodo) para grabación y ejecución de acciones en el navegador
 * Descarga la herramienta
@@ -27,7 +27,7 @@ Iniciemos:
     - Ejecutar con 100 hilos (usuarios) la transacción con intervalos de 2 segundos la petición.
         Revisamos árbol de resultados y comparamos cantidad de pasos exitosos vs. fallidos
 
-Recuerda que:
+**Recuerda que:
 
 * Debes haber configurado el proxy de tu navegador para la comunicación con JMeter
 * Debes haber descargado la herramienta que elegiste para tu prueba
