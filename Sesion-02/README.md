@@ -20,7 +20,7 @@ Existen diferentes formas de grabación de scripts para pruebas de rendimiento, 
 
 #### <ins>Tema 1: Configuración Proxy</ins>
 
-Se detalla como configurar el navegador proxy tanto para Chrome, como Safari, como Firefox..
+Se detalla como configurar el navegador proxy tanto para Chrome, como Safari, como Firefox.
 
 - [**`EJEMPLO 1`**](./Ejemplo-01)
 
@@ -30,9 +30,9 @@ Se detalla como configurar el navegador proxy tanto para Chrome, como Safari, co
 
 #### <ins>Tema 2: Configuración JMeter (Sin uso de Template)</ins>
 
-PENDIENTE!!!
-
-- [**`EJEMPLO 2`**](./Ejemplo-02)
+Con la inicialización de la herramienta JMeter, hemos podido ver cual es la estructura básica de un proyecto para pruebas de rendimiento, lo hemos hecho a través de un template de grabación para comprender los elementos que debe tener dicho proyecto. En esta instancia ya podemos crear un proyecto dentro de la herramienta sin usar el template sino ir añadiendo los elementos que requerimos para nuestra prueba, teniendo en cuenta el plan de pruebas, nuestro elemento para los escenarios de prueba, el grabador y nuestro árbol de resultados.
+  
+  En el siguiente [**`EJEMPLO 2`**](./Ejemplo-02) veremos como realizarlo.
   
 ---
 
@@ -73,9 +73,7 @@ Ahora puede comenzar a ejecutar la aplicación en su dispositivo móvil. Las sol
 
 #### <ins>Tema 4: Grabación de tráfico HTTPS</ins>
 
-PENDIENTE!!!
-  
-- [**`EJEMPLO 3`**](./Ejemplo-03)
+JMeter cuenta con un elemento para realizar la grabación del tráfico HTTP "HTTP Test Script Recorder", antes era conocido como "HTTP Proxy server", este elemento permite la captura y el redireccionamiento de las peticiones HTTP o HTTPS como un servidor Proxy  desde el controlador de grabación como al servidor destino, tal como lo podemos ver en este [**`EJEMPLO 3`**](./Ejemplo-03)
 
 ---
   
@@ -83,7 +81,7 @@ PENDIENTE!!!
 
 #### <ins>Tema 5: Grabación de secuencias de comandos y guiones con diferentes herramientas</ins>
 
-PENDIENTE!!!
+Otra forma que podemos realizar grabaciones en JMeter para nuestras pruebas de rendimiento es el uso de herramientas externas que se pueden integrar a JMeter, es decir, por un lado grabo las acciones en la web de prueba, integro con JMeter, y por otro lado, dentro del mismo JMeter realizo las configuraciones respectivas de mis escenarios de prueba para que desde allí las pueda ejecutar y analizar sus resultados.
   
 - [**`EJEMPLO 4`**](./Ejemplo-04)
 
