@@ -2,7 +2,9 @@
 
 ## Objetivo
 
-* PENDIENTE!!!
+* Grabar escenarios de prueba como scripts a partir de herramientas externas
+* Crear las solicitudes (acciones) del navegador a la aplicación web 
+* Ejecutar las pruebas de rendimiento a partir de los script grabados
 
 ## Desarrollo
 
@@ -20,7 +22,7 @@ Para crear una nueva secuencia de comandos de rendimiento:
 3. Comience a grabar haciendo clic en el botón de grabación, en forma de círculo, y realice las acciones web que desea grabar. Todas sus peticiones serán capturadas. Blazemeter
 Chrome Extension también admite la grabación de tráfico HTTPS.
 4. Después de terminar de grabar, haga clic en el botón de detener, en forma de un cuadrado. También puede pausar su grabación y luego reanudarla, así como editarla, en formato .jmx o JSON, o en la nube.
-5. Exporte su grabación: para ejecutar la prueba en JMeter, exporte al formato .jmx haciendo clic en el botón .jmx. Para ejecutar la prueba en BlazeMeter, haga clic en 'jugar'.
+5. Exporte su grabación: para ejecutar la prueba en JMeter, exporte al formato .jmx haciendo clic en el botón .jmx. Para ejecutar la prueba en BlazeMeter, haga clic en 'ejecutar'.
 
 **Grabación de guiones con BadBoy**
 
