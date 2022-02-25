@@ -22,10 +22,10 @@ Desarrollar un proyecto de pruebas de rendimiento que abarquen pruebas de carga 
 ## :bookmark_tabs: Sesiones
 
 - [`Sesión 01:` Introducción a Performance Testing & JMeter](./Sesion-01)
-- [`Sesión 02:` Configurar un Test Plan](./Sesion-02)
-- [`Sesión 03:` Grabando Test Scripts](./Sesion-03)
-- [`Sesión 04:` Tipos de pruebas con JMeter](./Sesion-04)
-- [`Sesión 05:` Pruebas dinámicas](./Sesion-05)
+- [`Sesión 02:` Grabando Test Scripts](./Sesion-02)
+- [`Sesión 03:` Tipos de pruebas con JMeter](./Sesion-03)
+- [`Sesión 04:` Pruebas dinámicas](./Sesion-04)
+- [`Sesión 05:` Parametrizacion de Datos](./Sesion-05)
 - [`Sesión 06:` Métricas de rendimiento y análisis de resultados de pruebas](./Sesion-06)
 - [`Sesión 07:` Integración con Selenium](./Sesion-07)
 - [`Sesión 08:` Pruebas de API](./Sesion-08)
