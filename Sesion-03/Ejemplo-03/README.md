@@ -22,7 +22,7 @@ Para las pruebas de estres, utilizaremos la configuración hecha en el ejemplo 1
 
 4. Visualizamos la gráfica que se va construyendo
 
-![4](https://user-images.githubusercontent.com/22419786/156018538-49a19744-fdb9-4401-8e44-f78358c294df.PNG)
+![4](https://user-images.githubusercontent.com/22419786/156077213-4c56e81c-53b6-42d5-9dd2-95902eb88ebe.PNG)
 
 5. En el reporte de resumen vemos que hay unos porcentajes de error que se validaran en el árbol de resultados
 
