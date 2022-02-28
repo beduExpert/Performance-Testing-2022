@@ -95,7 +95,7 @@ Te invitamos a que iniciemos el reto de esta sesión.
 
 Encuentra las indicaciones y consejos para reflejar los avances de tu proyecto de este módulo.
 
-- [**`POSTWORK SESIÓN 1`**](./Postwork/)
+- [**`POSTWORK SESIÓN 2`**](./Postwork/)
 
 <br/>
 
