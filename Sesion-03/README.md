@@ -1,61 +1,73 @@
-## Sesión 3: Nombre de sesión 🤖
+## Sesión 3: Tipos de Pruebas con JMeter 🤖
 
 <img src="../images/android-kotlin.png" align="right" height="120" hspace="10">
 <div style="text-align: justify;">
 
 ### 1. Objetivos :dart: 
 
-- Reconocer el IDE Android Studio con el que desarrollan aplicaciones móviles.
-- Conocer la estructura de un proyecto android y todos los archivos generados por el IDE
+- PENDIENTE !!!
 
 ### 2. Contenido :blue_book:
 
-Android Studio te ayudará a desarrollar tu app más productivamente a escala. Android Studio ofrece las herramientas más rápidas para crear apps de Android. Codifica más rápido. Codifica con seguridad. Crea el mejor código. Elimina tareas tediosas. Compila sin límites.
+Las pruebas de rendimiento se dividen en 4 tipos que son las pruebas de carga, las de estrés, las de estabilidad y las de confiabilidad o recuperación. Estas pruebas nos ayudan a mostrar si existe algun cuello de botella en nuestra aplicación.
+  
+  En el siguiente ejemplo podemos ver como tener lista nuestra herramienta JMeter para iniciar las pruebas de nuestra aplicacion web.
+  
+  - [**`EJEMPLO 1 - Preparación aplicación web y JMeter para pruebas de rendimiento`**](./Ejemplo-01)
 
 ---
 
 <img src="images/tools.png" align="right" height="90"> 
 
-#### <ins>Tema 1</ins>
+#### <ins>Tema 1: Pruebas de Carga</ins>
 
-Se detalla como crear un proyecto android desde nuestra IDE __Android Studio__, viendo el significado de los distintos campos y opciones para su configuración.
-
-- [**`EJEMPLO 1`**](./Ejemplo-01)
-
+Las pruebas de carga  
+  
+Ya con nuestra configuración y preparación hecha en el ejemplo 1, veremos que factores se deben tener en cuenta y como realizar prueba de carga en este [**`EJEMPLO 2 - Parámetros y ejecución de prueba de Carga`**](./Ejemplo-02)
+  
+ Con esta práctica podemos iniciar nuestro reto para este tipo de pruebas
+  
+- [**`RETO 1 - Prueba de Carga`**](./Reto-01)
 ---
 
 <img src="images/structure.png" align="right" height="90"> 
 
-#### <ins>Tema 2</ins>
+#### <ins>Tema 2: Pruebas de Estrés</ins>
 
-Una vez que el proyecto está creado, la estructura o forma en la que se organiza es de suma importancia. No sólo nos ayuda a mantener nuestro código organizado, sino que también es importante para el funcionamiento de nuestra nueva app.
+Este tipo de pruebas sirven para determinar la solidez de la aplicación, de manera que empecemos a bombardear la aplicacion con consutar y poder determinar cuando la aplicación se rompe, o presenta errores. Aquí podemos determinar cual es el límite de consultas simultaneas que la aplicación puede tener.
+  
+En esta prueba lo que se hace es duplicar la cantidad de usuarios de consulta de la aplicación, es decir, si mi aplicación acepta 10 usuarios lo que hacemos es enviarle 20, despues 40 usuarios, despues 80, despues 160 y así sucesivamente hasta que la aplicación en alguna de las pruebas se rompa, allí podemos sacar el punto máximo donde la aplicación ya no es capaz de procesar todas las peticiones al tiempo.
 
-- [**`EJEMPLO 2`**](./Ejemplo-02)
-- [**`RETO 1`**](./Reto-01)
+Ya con nuestra configuración y preparación hecha en el ejemplo 1, veremos que factores se deben tener en cuenta y como realizar prueba de estres en este [**`EJEMPLO 3 - Parámetros y ejecución de prueba de Estres`**](./Ejemplo-03)
+  
+ Con esta práctica podemos iniciar nuestro reto para este tipo de pruebas
+  
+- [**`RETO 2 - Prueba de Estrés`**](./Reto-02)
+
 ---
 
 <img src="images/emulator.jpg" align="right" height="90"> 
 
-#### <ins>Tema 3</ins>
+#### <ins>Tema 3: Pruebas de Estabilidad</ins>
 
-Ahora que tenemos mayor conocimiento de nuestro proyecto, vamos a configurar un emulador de algún dispositivo móvil para poder correr nuestra aplicación! :iphone:. Es decir, vamos a correr un dispositivo móvil virtual en nuestra computadora para simular la funcionalidad de nuestra app.
-
-**Nota al Experto:**
+Estas pruebas nos ayudan a identificar si la aplicacion puede soportar una carga continuada, un ejemplo de una carga continuada es que haya una aplicación que reciba 10 usuarios y la prueba aquí es ingresar las pruebas en un ciclo infinito done se hacen las 10 consutas, luego se vuelven a hacer las 10 consultas, luego se vuelven a hacer las 10 consultas y así sucesivamente, esto nos sirve para encontrar si hay fugas en la aplicación, ya que al hacer un ciclo infinito, va a llegar un punto donde la memoria se va a rebosar y podremos ver si la aplicación resiste un tiempo significativo de cargas continuadas.
   
- + Recuerda que cada subtema puede contener un ejemplo, un reto, o más de un ejemplo y más de un reto. Recuerda borrar esta línea después de haberla leído.
-- [**`RETO 2`**](./Reto-02)
+Ya con nuestra configuración y preparación hecha en el ejemplo 1, veremos que factores se deben tener en cuenta y como realizar prueba de estabilidad en este [**`EJEMPLO 4 - Parámetros y ejecución de prueba de Estabilidad`**](./Ejemplo-04)
+  
+ Con esta práctica podemos iniciar nuestro reto para este tipo de pruebas
+  
+- [**`RETO 3 - Prueba de Estabilidad`**](./Reto-03)
 ---
 
 <img src="images/chaomi.png" align="right" height="110"> 
 
-#### <ins>Tema 4</ins>
+#### <ins>Tema 4: Pruebas de Confiabilidad o Recuperación</ins>
 
-Basta de emulaciones, ahora veamos como funciona en el mundo real. Nuestra app, por muy sencilla que sea ya está lista para ser instalada en un dispositivo móvil y para verla en acción.
-
-**Nota al Experto:**
+Ya con nuestra configuración y preparación hecha en el ejemplo 1, veremos que factores se deben tener en cuenta y como realizar prueba de confiabilidad o recuperación en este [**`EJEMPLO 5 - Parámetros y ejecución de prueba de Confiabilidad o Recuperación`**](./Ejemplo-05)
   
- + Recuerda que cada subtema puede contener un ejemplo, un reto, o más de un ejemplo y más de un reto. Recuerda borrar esta línea después de haberla leído.
-- [**`RETO 3`**](./Reto-03)
+ Con esta práctica podemos iniciar nuestro reto para este tipo de pruebas
+  
+- [**`RETO 4 - Prueba de Confiabilidad o Recuperación`**](./Reto-04)
 ---
 
 ### 3. Postwork :memo:
