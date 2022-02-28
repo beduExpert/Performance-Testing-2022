@@ -1,15 +1,23 @@
-# Reto # - Nombre del reto
+# Reto #1: Generación de prueba de carga en aplicativo web
 
 ## Objetivo
 
-* Agregar los objetivos del reto (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
+Grabación, parametrización de datos y ejecución de prueba de carga a un aplicativo web presentando sus resultados.
 
 ## Desarrollo
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el reto.
->Si no es necesario, puedes borrar esta nota.
+El reto en esta sesión consiste en generar una prueba de carga a cualquier aplicativo web, recuerda que no debes utilizar páginas como facebook, twitter, etc, pues se pueden generar alertas de seguridad por envíos de altos usuarios.
 
-Aquí se debe agregar el desarrollo del reto, **NO** olvides poner el resultado del ejercicio propuesto para el feedback de los alumnos
 
+**Reto**
+
+- Crear un plan de pruebas con template básico de grabación
+- Agregar los visores de resultados
+        * Gráfico de resultados
+        * Reporte resumen
+        * Arbol de Resultados
+- Identificar una aplicación web para la prueba
+- Configurar proxy
+- En HTTP(S) Test Script Recorder iniciar la grabación del escenario de prueba
+- Configurar en el Thread Group cargas de 20 usuarios
+- Ver el comportamiento de la ejecución en los 3 elementos de resultados ingresados al proyecto

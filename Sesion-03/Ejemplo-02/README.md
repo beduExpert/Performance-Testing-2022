@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-PENDIENTE!!!
+Indicar parámetros de entrada para peticiones de pruebas de carga, ejecución y revisión de resultados.
 
 ## Desarrollo
 
