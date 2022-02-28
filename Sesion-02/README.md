@@ -87,7 +87,7 @@ Otra forma que podemos realizar grabaciones en JMeter para nuestras pruebas de r
   
 Te invitamos a que iniciemos el reto de esta sesión.
   
-  - [**`RETO 1 - Grabación desde herramienta externa y ejecución en JMeter`**](./Reto-02)
+  - [**`RETO 1 - Grabación desde herramienta externa y ejecución en JMeter`**](./Reto-01)
 
 ---
 
