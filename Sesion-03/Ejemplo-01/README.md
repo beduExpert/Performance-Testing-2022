@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-* PENDIENTE!!!
+Preparar la herramienta JMeter y la conexión con el navegador para iniciar las pruebas de carga, estres, estabilidad y recuperación.
 
 ## Desarrollo
 
