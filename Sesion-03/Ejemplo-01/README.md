@@ -59,4 +59,24 @@ IMAGEN
 
 IMAGEN
 
-13. 
+13. Aqui aparece un cuadro que solo se detiene al terminar la grabación. Se actualiza la aplicación web y se inicia la grabación del escenario de prueba. En este caso haremos un ejercicio con la parte de reservas ingresando este nombre en la url
+
+IMAGEN
+
+14. Aquí ya se puede ver la reserva.php y el anterior que muestra es el paso de la entrada al home y así sucesivamente van apareciendo estos cuadros a medidas que se va dando clic en los pasos
+
+IMAGEN
+
+15. Se hace una prueba diligenciando varios datos
+
+IMAGEN
+
+16. Y ya se puede visualizar en JMeter
+
+IMAGEN
+
+17. Puedo seguir interactuando por la palicación, por ejemplo ingresamos tambien al login y registro y ya podemos detener la grabación
+
+IMAGEN
+
+**Con los escenarios de prueba ya grabados podemos iniciar las pruebas!**
