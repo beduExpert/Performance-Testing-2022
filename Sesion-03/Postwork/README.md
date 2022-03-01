@@ -1,4 +1,4 @@
-# Sesión # 3 - Tipos de Pruebas con JMeter: 
+# Sesión # 3 - Tipos de Pruebas con JMeter
 
 ## :dart: Objetivos
 
@@ -24,29 +24,35 @@ Limpiar los listeners antes de cada ejecución
 Crear un TestPlan con sus elementos de prueba, grabación y resultados.
 
 *Grabar primer escenario de prueba*
-Configurar el Thread Group con usuarios para pruebas de carga
-Ejecutar prueba
-Revisar elementos de resultados
-Configurar el Thread Group con usuarios para pruebas de estrés
-Ejecutar prueba
-Revisar elementos de resultados
-Configurar el Thread Group con usuarios para pruebas de estabilidad
-Ejecutar prueba
-Revisar elementos de resultados
-Configurar el Thread Group con usuarios para pruebas de recuperación
-Ejecutar prueba
-Revisar elementos de resultados
+- Configurar el Thread Group con usuarios para pruebas de carga
+- Ejecutar prueba
+- Revisar elementos de resultados
+
+- Configurar el Thread Group con usuarios para pruebas de estrés
+- Ejecutar prueba
+- Revisar elementos de resultados
+
+- Configurar el Thread Group con usuarios para pruebas de estabilidad
+- Ejecutar prueba
+- Revisar elementos de resultados
+
+- Configurar el Thread Group con usuarios para pruebas de recuperación
+- Ejecutar prueba
+- Revisar elementos de resultados
 
 *Grabar segundo escenario de prueba*
-Configurar el Thread Group con usuarios para pruebas de carga
-Ejecutar prueba
-Revisar elementos de resultados
-Configurar el Thread Group con usuarios para pruebas de estrés
-Ejecutar prueba
-Revisar elementos de resultados
-Configurar el Thread Group con usuarios para pruebas de estabilidad
-Ejecutar prueba
-Revisar elementos de resultados
-Configurar el Thread Group con usuarios para pruebas de recuperación
-Ejecutar prueba
-Revisar elementos de resultados
+- Configurar el Thread Group con usuarios para pruebas de carga
+- Ejecutar prueba
+- Revisar elementos de resultados
+
+- Configurar el Thread Group con usuarios para pruebas de estrés
+- Ejecutar prueba
+- Revisar elementos de resultados
+
+- Configurar el Thread Group con usuarios para pruebas de estabilidad
+- Ejecutar prueba
+- Revisar elementos de resultados
+
+- Configurar el Thread Group con usuarios para pruebas de recuperación
+- Ejecutar prueba
+- Revisar elementos de resultados
