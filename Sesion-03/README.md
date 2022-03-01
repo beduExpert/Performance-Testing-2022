@@ -5,7 +5,10 @@
 
 ### 1. Objetivos :dart: 
 
-- PENDIENTE !!!
+- Exponer la correcta forma de generar pruebas de carga hasta su límite permitido de usuarios.
+- Simular peticiones a partir de las pruebas de estres enviando más usuarios de los que acepta la aplicación.
+- Generar pruebas de estabilidad para conocer la cantidad de usuarios permitidos en la aplicación.
+- Ejecutar pruebas de recuperación cuando una prueba de carga falla.
 
 ### 2. Contenido :blue_book:
 
@@ -63,6 +66,8 @@ Ya con nuestra configuración y preparación hecha en el ejemplo 1, veremos que 
 
 #### <ins>Tema 4: Pruebas de Confiabilidad o Recuperación</ins>
 
+Las pruebas de confiabilidad o recuperación son pruebas no funcionales que determinan la capacidad del software para recuperarse de fallas como fallas de software / hardware o cualquier falla de la red.
+  
 Ya con nuestra configuración y preparación hecha en el ejemplo 1, veremos que factores se deben tener en cuenta y como realizar prueba de confiabilidad o recuperación en este [**`EJEMPLO 5 - Parámetros y ejecución de prueba de Confiabilidad o Recuperación`**](./Ejemplo-05)
   
  Con esta práctica podemos iniciar nuestro reto para este tipo de pruebas
