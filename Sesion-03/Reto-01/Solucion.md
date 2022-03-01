@@ -13,7 +13,7 @@ La solución a este reto es presentar el resultado de la ejecución con pasos ex
 - Identificar una aplicación web para la prueba
 - Configurar proxy
 - En HTTP(S) Test Script Recorder iniciar la grabación del escenario de prueba
-- Configurar en el Thread Group cargas de 20 usuarios y activo el check de sin fin
+- Configurar en el Thread Group cargas de 10 usuarios
 - Ver el comportamiento de la ejecución en los 3 elementos de resultados ingresados al proyecto
 
 **Resultado Esperado**
