@@ -22,16 +22,15 @@ Luego de la ejecución de la grabación hecha, las imagenes de este tipo son el 
 
 *Grafico de Resultados*
 
-![5](https://user-images.githubusercontent.com/22419786/156090757-6060d36e-9101-485a-9e05-d78a82920c1c.PNG)
+![5](https://user-images.githubusercontent.com/22419786/156091085-dd99fef7-83b3-4f27-95ac-1ae2c4c43697.PNG)
 
 
 *Reporte resumen*
 
-![6](https://user-images.githubusercontent.com/22419786/156090782-617c0e6d-d2cf-4305-9e24-1b950b716c5c.PNG)
-
+![2](https://user-images.githubusercontent.com/22419786/156091108-a803081b-9f7a-4a5f-bdb8-d0ccc2b408b1.PNG)
 
 
 *Árbol de Resultados*
 
-![7-1](https://user-images.githubusercontent.com/22419786/156090802-534dd372-41ca-44bb-ac37-5f6f516c15f3.PNG)
+![4](https://user-images.githubusercontent.com/22419786/156091119-66fd9088-0438-46f5-a7cc-a1ccc7f607de.PNG)
 
