@@ -19,6 +19,6 @@ El reto en esta sesión consiste en generar una prueba de estabilidad a cualquie
 - Identificar una aplicación web para la prueba
 - Configurar proxy
 - En HTTP(S) Test Script Recorder iniciar la grabación del escenario de prueba
-- Configurar en el Thread Group cargas de 20 usuarios
+- Configurar en el Thread Group cargas de 20 usuarios y activo el check de sin fin
 - Ver el comportamiento de la ejecución en los 3 elementos de resultados ingresados al proyecto
 
