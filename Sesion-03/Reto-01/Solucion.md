@@ -1,17 +1,37 @@
 ## Solución
   
-La solución a este reto es presentar el resultado de la ejecución con pasos exitosos y/o fallidos en el visor del arbol de resultados tal como se evidencia en la imágen del resultado esperado.
+La solución a este reto es presentar el resultado de la ejecución con pasos exitosos y/o fallidos dependiendo del resultado de la ejecución en los 3 tipos de elementos para visualización de resultados vistos en la sesión.
 
-- Tomar una transaccion de cualquier página web.
-- Crear un test plan en JMeter junto con su template de Recorder.
-- Cambiar el nombre del ThreadGroup identificando que tipo de transacción es la que se va a probar. 
-- Incluir 15 números de usuarios (Threads) con 1 segundo de tiempo en cada petición
-- Realizar la grabación en la página escogida
-- Ejecutar el escenario de prueba tal cual como se grabó
-- Evidencia en el visor del arbol de resultados del HTTP(S) Script Recorder
+* Gráfico de resultados 
+* Reporte resumen 
+* Arbol de Resultados
+
+**Pasos**
+
+- Crear un plan de pruebas con template básico de grabación
+- Agregar los visores de resultados * Gráfico de resultados * Reporte resumen * Arbol de Resultados
+- Identificar una aplicación web para la prueba
+- Configurar proxy
+- En HTTP(S) Test Script Recorder iniciar la grabación del escenario de prueba
+- Configurar en el Thread Group cargas de 20 usuarios y activo el check de sin fin
+- Ver el comportamiento de la ejecución en los 3 elementos de resultados ingresados al proyecto
 
 **Resultado Esperado**
 
-Luego de la ejecución de la grabación hecha, una imagen de este tipo es el resultado que se espera que aparezca.
+Luego de la ejecución de la grabación hecha, las imagenes de este tipo son el resultado que se espera que aparezca.
 
-![Imagen21](https://user-images.githubusercontent.com/22419786/154822063-55146442-0899-4e66-b3bc-6695821b8a02.png)
+*Grafico de Resultados*
+
+![5](https://user-images.githubusercontent.com/22419786/156090757-6060d36e-9101-485a-9e05-d78a82920c1c.PNG)
+
+
+*Reporte resumen*
+
+![6](https://user-images.githubusercontent.com/22419786/156090782-617c0e6d-d2cf-4305-9e24-1b950b716c5c.PNG)
+
+
+
+*Árbol de Resultados*
+
+![7-1](https://user-images.githubusercontent.com/22419786/156090802-534dd372-41ca-44bb-ac37-5f6f516c15f3.PNG)
+
