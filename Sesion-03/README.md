@@ -70,9 +70,6 @@ Las pruebas de confiabilidad o recuperación son pruebas no funcionales que dete
   
 Ya con nuestra configuración y preparación hecha en el ejemplo 1, veremos que factores se deben tener en cuenta y como realizar prueba de confiabilidad o recuperación en este [**`EJEMPLO 5 - Parámetros y ejecución de prueba de Confiabilidad o Recuperación`**](./Ejemplo-05)
   
- Con esta práctica podemos iniciar nuestro reto para este tipo de pruebas
-  
-- [**`RETO 4 - Prueba de Confiabilidad o Recuperación`**](./Reto-04)
 ---
 
 ### 3. Postwork :memo:
