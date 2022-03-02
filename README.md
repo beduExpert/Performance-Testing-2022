@@ -24,7 +24,7 @@ Desarrollar un proyecto de pruebas de rendimiento que abarquen pruebas de carga 
 - [`Sesión 01:` Introducción a Performance Testing & JMeter](./Sesion-01)
 - [`Sesión 02:` Grabando Test Scripts](./Sesion-02)
 - [`Sesión 03:` Tipos de pruebas con JMeter](./Sesion-03)
-- [`Sesión 04:` Parametrizacion de Datos](./Sesion-04)
+- [`Sesión 04:` Parametrizacion de Datos en JMeter](./Sesion-04)
 - [`Sesión 05:` Métricas de rendimiento y análisis de resultados de pruebas](./Sesion-05)
 - [`Sesión 06:` JMeter (Jenkins + Github)](./Sesion-06)
 - [`Sesión 07:` Integración con Selenium](./Sesion-07)
