@@ -76,7 +76,7 @@ Ya con nuestra configuración y preparación hecha en el ejemplo 1, veremos que 
 
 Encuentra las indicaciones y consejos para reflejar los avances de tu proyecto de este módulo.
 
-- [**`POSTWORK SESIÓN 1`**](./Postwork/)
+- [**`POSTWORK SESIÓN 3`**](./Postwork/)
 
 <br/>
 
