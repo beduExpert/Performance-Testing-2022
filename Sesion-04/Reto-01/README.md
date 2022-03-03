@@ -13,8 +13,7 @@ El reto en esta sesión consiste en generar una prueba de carga a cualquier apli
 **Reto**
 
 * Crear un plan de pruebas con template básico de grabación
-* Agregar thread group
-* Agregar elemento de HTTP(S) Test Script Recorder e iniciar la grabación del escenario de prueba
+* Agregar Thread Group
 * Dentro del Thread Group con la transaccion creada agregar elemento CSV y el visor de resultados
 * Configurar carga de archivo CSV con los parámetros del nombre del archivo y de las variables
 * Ejecutar la prueba con los datos del archivo
