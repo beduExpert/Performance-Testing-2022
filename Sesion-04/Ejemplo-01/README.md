@@ -1,4 +1,4 @@
-# Ejemplo # 1 - Parametrización utilizando archivos externos
+# Ejemplo # 1 - Parametrización de datos utilizando archivos externos
 
 ## Objetivo
 
