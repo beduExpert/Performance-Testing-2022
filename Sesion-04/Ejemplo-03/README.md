@@ -26,9 +26,9 @@ Los controladores parametrizados contienen la sección 'Variables definidas por 
 
 Dentro de ambos controladores parametrizados, agregue referencias al 'Controlador reutilizable' para llamar a la 'Solicitud de inicio de sesión' con diferentes parámetros. Se puede hacer de esta manera:
 
-Haga clic derecho en 'Controlador parametrizado' -> 'Agregar' -> 'Controlador lógico' -> 'Controlador de módulo'<img width="671" alt="4" src="https://user-
-  
-images.githubusercontent.com/22419786/156497622-0f411376-f366-408e-9fa6-c9d74ba506f9.png">
+Haga clic derecho en 'Controlador parametrizado' -> 'Agregar' -> 'Controlador lógico' -> 'Controlador de módulo'
+
+<img width="671" alt="4" src="https://user-images.githubusercontent.com/22419786/156497622-0f411376-f366-408e-9fa6-c9d74ba506f9.png">
 
 Al ejecutar su secuencia de comandos, verá que la 'Solicitud de inicio de sesión' activó cada uno de los controladores parametrizados por separado. Puede ser muy útil en caso de que necesite ejecutar su secuencia de comandos en diferentes combinaciones de parámetros de entrada.
 
