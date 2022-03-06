@@ -49,12 +49,12 @@ En este [**`EJEMPLO 1 - Configuración para graficar los datos`**](./Ejemplo-01)
 
 <img src="images/structure.png" align="right" height="90"> 
 
-#### <ins>Tema 2</ins>
+#### <ins>Tema 2: Análisis de resultados de pruebas</ins>
 
-Una vez que el proyecto está creado, la estructura o forma en la que se organiza es de suma importancia. No sólo nos ayuda a mantener nuestro código organizado, sino que también es importante para el funcionamiento de nuestra nueva app.
+Para analizar adecuadamente los resultados de las pruebas de performance en JMeter, podemos tener en cuenta varios elementos en el proyecto JMeter y como comprender sus resultados. 
+  
+En el siguiente [**`EJEMPLO 2 - Informes de Resultados en JMeter`**](./Ejemplo-02) revisaremos como.
 
-- [**`EJEMPLO 2`**](./Ejemplo-02)
-- [**`RETO 1`**](./Reto-01)
 ---
 
 <img src="images/emulator.jpg" align="right" height="90"> 
