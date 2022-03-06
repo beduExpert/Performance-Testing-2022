@@ -59,28 +59,26 @@ En el siguiente [**`EJEMPLO 2 - Informes de Resultados en JMeter`**](./Ejemplo-0
 
 <img src="images/emulator.jpg" align="right" height="90"> 
 
-#### <ins>Tema 3</ins>
+#### <ins>Tema 3: Gestión de defectos</ins>
 
-Ahora que tenemos mayor conocimiento de nuestro proyecto, vamos a configurar un emulador de algún dispositivo móvil para poder correr nuestra aplicación! :iphone:. Es decir, vamos a correr un dispositivo móvil virtual en nuestra computadora para simular la funcionalidad de nuestra app.
-
-**Nota al Experto:**
-  
- + Recuerda que cada subtema puede contener un ejemplo, un reto, o más de un ejemplo y más de un reto. Recuerda borrar esta línea después de haberla leído.
-- [**`RETO 2`**](./Reto-02)
+Los defectos encontrados en nuestras pruebas de rendimiento deben tener una complejidad en cuanto a su manejo porque pueden ser críticos o bajos de manera que sean bloqueantes o no, para llevar un control de los defectos se deben manejar bajo herramientas para gestión de defectos, tal como se puede evidenciar en el  [**`EJEMPLO 3 - Creación de defectos en JIRA`**](./Ejemplo-03) donde mostraremos como generar un defecto en una de las herramientas más comunes como es JIRA. 
+    
 ---
 
 <img src="images/chaomi.png" align="right" height="110"> 
 
-#### <ins>Tema 4</ins>
+#### <ins>Tema 4: Creación de documento con el plan de pruebas</ins>
 
-Basta de emulaciones, ahora veamos como funciona en el mundo real. Nuestra app, por muy sencilla que sea ya está lista para ser instalada en un dispositivo móvil y para verla en acción.
-
-**Nota al Experto:**
-  
- + Recuerda que cada subtema puede contener un ejemplo, un reto, o más de un ejemplo y más de un reto. Recuerda borrar esta línea después de haberla leído.
-- [**`RETO 3`**](./Reto-03)
+Nuestro plan de pruebas debe estar muy bien documentado y estructurado, para ello podemos basarnos en este [**`EJEMPLO 4 - Elaboración documento plan de pruebas`**](./Ejemplo-04) y poder realizar nuestro propio documento de pruebas. 
+   
 ---
 
+ Bienvenido a nuestro RETO de esta sesión.
+  
+  - [**`RETO 1`**](./Reto-01)
+  
+ --- 
+  
 ### 3. Postwork :memo:
 
 Encuentra las indicaciones y consejos para reflejar los avances de tu proyecto de este módulo.
