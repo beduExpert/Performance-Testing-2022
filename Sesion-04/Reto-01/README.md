@@ -1,15 +1,20 @@
-# Reto # - Nombre del reto
+# Reto # 1 - Iteración de datos con CSV
 
 ## Objetivo
 
-* Agregar los objetivos del reto (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
+Generar un proyecto en JMeter utilizando archivo CSV como parametro de entrada de datos.
 
 ## Desarrollo
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el reto.
->Si no es necesario, puedes borrar esta nota.
+El reto en esta sesión consiste en generar una prueba de carga a cualquier aplicativo web, grabando un escenario de prueba y enviando los datos desde un archivo CSV
 
-Aquí se debe agregar el desarrollo del reto, **NO** olvides poner el resultado del ejercicio propuesto para el feedback de los alumnos
+*Recuerda: No debes utilizar páginas como facebook, twitter, etc, pues se pueden generar alertas de seguridad por envíos de altos usuarios.*
 
+**Reto**
+
+* Crear un plan de pruebas con template básico de grabación
+* Agregar Thread Group
+* Dentro del Thread Group con la transaccion creada agregar elemento CSV y el visor de resultados
+* Configurar carga de archivo CSV con los parámetros del nombre del archivo y de las variables
+* Ejecutar la prueba con los datos del archivo
+* Presentar el arbol de resultados

@@ -5,45 +5,41 @@
 
 ### 1. Objetivos :dart: 
 
-- Reconocer el IDE Android Studio con el que desarrollan aplicaciones móviles.
-- Conocer la estructura de un proyecto android y todos los archivos generados por el IDE
+- Demostrar el uso de archivos externos (.csv) en la iteración de datos de los escenarios en JMeter
+- Utilizar los diferentes tipos de bases de datos en la iteración de datos de los escenarios en JMeter
+- Emplear el uso de funciones a través del control parametrizado en la iteración de datos de los escenarios en JMeter
 
 ### 2. Contenido :blue_book:
 
-Android Studio te ayudará a desarrollar tu app más productivamente a escala. Android Studio ofrece las herramientas más rápidas para crear apps de Android. Codifica más rápido. Codifica con seguridad. Crea el mejor código. Elimina tareas tediosas. Compila sin límites.
-
+- Los proyectos en JMeter se van trabajando con diferentes tipos de prueba, para esto se requieren datos de envío para la evaluación de la prueba, con esta parametrización, vamos a identificar como iterar los datos en las pruebas de los aplicativos web a través de JMeter ya sea desde un archivo externo con extensión .csv, desde una base de datos o desde un controlador parametrizado.
 ---
 
 <img src="images/tools.png" align="right" height="90"> 
 
-#### <ins>Tema 1</ins>
+#### <ins>Tema 1: Parametrización a través de archivos externos</ins>
 
-Se detalla como crear un proyecto android desde nuestra IDE __Android Studio__, viendo el significado de los distintos campos y opciones para su configuración.
-
-- [**`EJEMPLO 1`**](./Ejemplo-01)
+La parametrización de datos se puede realizar desde un archivo .csv tal como se evidencia en el siguiente [**`EJEMPLO 1 - Parametrización de datos utilizando archivos externos`**](./Ejemplo-01)
 
 ---
 
 <img src="images/structure.png" align="right" height="90"> 
 
-#### <ins>Tema 2</ins>
+#### <ins>Tema 2: Parametrización a través de bases de datos: </ins>
 
-Una vez que el proyecto está creado, la estructura o forma en la que se organiza es de suma importancia. No sólo nos ayuda a mantener nuestro código organizado, sino que también es importante para el funcionamiento de nuestra nueva app.
-
-- [**`EJEMPLO 2`**](./Ejemplo-02)
-- [**`RETO 1`**](./Reto-01)
+La parametrización de datos se puede realizar desde cualquiera de las bases de datos tal como se evidencia en el siguiente [**`EJEMPLO 2 - Parametrización de datos utilizando bases de datos`**](./Ejemplo-02)
+  
 ---
 
 <img src="images/emulator.jpg" align="right" height="90"> 
 
-#### <ins>Tema 3</ins>
-
-Ahora que tenemos mayor conocimiento de nuestro proyecto, vamos a configurar un emulador de algún dispositivo móvil para poder correr nuestra aplicación! :iphone:. Es decir, vamos a correr un dispositivo móvil virtual en nuestra computadora para simular la funcionalidad de nuestra app.
-
-**Nota al Experto:**
+#### <ins>Tema 3: Parametrización a través de controlador parametrizado</ins>
   
- + Recuerda que cada subtema puede contener un ejemplo, un reto, o más de un ejemplo y más de un reto. Recuerda borrar esta línea después de haberla leído.
-- [**`RETO 2`**](./Reto-02)
+La parametrización de datos se puede realizar desde cualquiera de las bases de datos tal como se evidencia en el siguiente [**`EJEMPLO 3 - Parametrización de datos utilizando el controlador parametrizado`**](./Ejemplo-03)
+  
+  
+Con esta práctica podemos iniciar nuestro reto para interactuar con las diferentes formas de parametrización de datos en JMeter
+  
+- [**`RETO 1`**](./Reto-01)
 ---
 
 <img src="images/chaomi.png" align="right" height="110"> 

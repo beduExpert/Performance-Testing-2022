@@ -1,37 +1,60 @@
-## Sesión 5: Nombre de sesión 🤖
+## Sesión 5: Métricas de rendimiento y análisis de resultados de pruebas 🤖
 
 <img src="../images/android-kotlin.png" align="right" height="120" hspace="10">
 <div style="text-align: justify;">
 
 ### 1. Objetivos :dart: 
 
-- Reconocer el IDE Android Studio con el que desarrollan aplicaciones móviles.
-- Conocer la estructura de un proyecto android y todos los archivos generados por el IDE
+PENDIENTE!!!!
 
 ### 2. Contenido :blue_book:
 
-Android Studio te ayudará a desarrollar tu app más productivamente a escala. Android Studio ofrece las herramientas más rápidas para crear apps de Android. Codifica más rápido. Codifica con seguridad. Crea el mejor código. Elimina tareas tediosas. Compila sin límites.
+PENDIENTE!!!!
 
 ---
 
 <img src="images/tools.png" align="right" height="90"> 
 
-#### <ins>Tema 1</ins>
+#### <ins>Tema 1: Métricas en pruebas de rendimiento</ins>
 
-Se detalla como crear un proyecto android desde nuestra IDE __Android Studio__, viendo el significado de los distintos campos y opciones para su configuración.
+Desde JMeter 2.13, se pueden obtener resultados en tiempo real enviados a un backend a través de Backend Listener usando potencialmente cualquier backend (JDBC, JMS, Webservice, …) al proporcionar una clase que implementa AbstractBackendListenerClient.
 
-- [**`EJEMPLO 1`**](./Ejemplo-01)
+  JMeter se envía con:
+
+* Un GraphiteBackendListenerClient que le permite enviar métricas a un Graphite Backend.
+  
+    Esta característica proporciona:
+  
+      - Resultados en vivo
+      - Gráficos para métricas.
+      - Capacidad para comparar 2 o más pruebas de carga
+      - Almacenar datos de monitoreo siempre que JMeter resulte en el mismo backend
+* Un InfluxDBBackendListenerClient introducido en JMeter 3.2 que le permite enviar métricas a un InfluxDB Backend utilizando los protocolos UDP o HTTP. 
+  
+  Esta función proporciona:
+
+      - Resultados en vivo
+      - Gráficos para métricas.
+      - Capacidad para comparar 2 o más pruebas de carga
+      - Posibilidad de agregar anotaciones a los gráficos
+      - Almacenar datos de monitoreo siempre que JMeter resulte en el mismo backend
+  
+En este [**`EJEMPLO 1 - Configuración para graficar los datos`**](./Ejemplo-01) presentaremos la configuración para graficar e historizar los datos en diferentes backends:
+
+  - Configuración de InfluxDB para InfluxDBBackendListenerClient
+  - Configuración de InfluxDB para GraphiteBackendListenerClient
+  - Grafana
 
 ---
 
 <img src="images/structure.png" align="right" height="90"> 
 
-#### <ins>Tema 2</ins>
+#### <ins>Tema 2: Análisis de resultados de pruebas</ins>
 
-Una vez que el proyecto está creado, la estructura o forma en la que se organiza es de suma importancia. No sólo nos ayuda a mantener nuestro código organizado, sino que también es importante para el funcionamiento de nuestra nueva app.
+Para analizar adecuadamente los resultados de las pruebas de performance en JMeter, podemos tener en cuenta varios elementos en el proyecto JMeter y como comprender sus resultados. 
+  
+En el siguiente [**`EJEMPLO 2 - Informes de Resultados en JMeter`**](./Ejemplo-02) revisaremos como.
 
-- [**`EJEMPLO 2`**](./Ejemplo-02)
-- [**`RETO 1`**](./Reto-01)
 ---
 
 <img src="images/emulator.jpg" align="right" height="90"> 
