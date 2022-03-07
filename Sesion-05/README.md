@@ -5,11 +5,14 @@
 
 ### 1. Objetivos :dart: 
 
-PENDIENTE!!!!
+- Demostrar como generar métricas a partir de los resultados de ejecuciones de pruebas de rendimiento
+- Comparar resultados de ejecuciones de diferentes tipos de pruebas de rendimiento
+- Implementar los bugs en herramienta JIRA de incidencias y defectos
+- Elaborar un documento de plan de pruebas para control y formalización del proyecto
 
+  
 ### 2. Contenido :blue_book:
-
-PENDIENTE!!!!
+En este work conoceremos como revisar y analizar los resultados de las pruebas de rendimiento en JMeter, conocer las métricas y evaluarlas. Además veremos como gestionar defectos encontrados y como documentar un plan de pruebas completo.
 
 ---
 
