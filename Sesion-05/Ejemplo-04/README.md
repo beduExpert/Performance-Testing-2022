@@ -162,7 +162,7 @@ Como datos de prueba tenemos:
 
 Los defectos los podemos gestionar desde una herramienta que en nuestro caso es JIRA
 
-IMAGENNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+![18](https://user-images.githubusercontent.com/22419786/156957347-f49bf636-1e71-4b9c-86ba-73919bca2ee8.PNG)
 
 ### 7. Herramientas y técnicas de prueba
 
