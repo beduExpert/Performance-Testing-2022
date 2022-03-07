@@ -132,24 +132,67 @@ Nuestros parámetros base para el análisis de resultados y métricas de rendimi
 
 ### 4. Datos de prueba
 
+Como datos de prueba tenemos:
+
+- 10 usuarios concurrentes de 1 segundo entre peticiones
+- 10 usuarios concurrentes de 5 segundos entre peticiones
+- 20 usuarios concurrentes de 1 segundo entre peticiones
+- 20 usuarios concurrentes de 5 segundos entre peticiones
+- 50 usuarios concurrentes de 1 segundo entre peticiones
+- 50 usuarios concurrentes de 5 segundos entre peticiones
+- 100 usuarios concurrentes de 1 segundo entre peticiones
+- 100 usuarios concurrentes de 5 segundos entre peticiones
+
 ### 5. Criterios de entrada y salida
+
+*Criterios de entrada*
+
+- Acceso a todas las aplicaciones del entorno.
+- Preparación del entorno completo.
+- Preparación de datos de prueba de rendimiento.
+
+*Criterios de salida*
+
+- Informe de resultados de acuerdo al reporte resumen
+- Gráfico de resultados
+- Arbol de resultados con request y response
+- Metricas de resultados
 
 ### 6. Gestión de defectos
 
-**Definición de gravedad del defecto**
+Los defectos los podemos gestionar desde una herramienta que en nuestro caso es JIRA
+
+IMAGENNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
 
 ### 7. Herramientas y técnicas de prueba
 
+Herramienta JMeter
+
 ### 8. Criterios de suspensión y reanudación
+
+Se vuelve un tema bloqueante cuando:
+
+- No está el ambiente configurado
+- La aplicación está inestable
+- No hay datos de prueba disponibles
 
 ### 9. Entregables de prueba
 
+- Estrategia de prueba de rendimiento
+- Documento de requisitos de desempeño
+- Documento de escenario de prueba de rendimiento
+- Guiones de prueba de rendimiento
+- Resultados de la prueba de rendimiento
+
+
 ### 10. Funciones y responsabilidades
+
+![10](https://user-images.githubusercontent.com/22419786/156947549-ef089c44-8cd9-42d3-8a22-2815e6b8e22d.PNG)
 
 ### 11. Riesgos potenciales y plan de mitigación
 
-### 12. Suposiciones
+![11](https://user-images.githubusercontent.com/22419786/156948331-9b407317-60af-4f02-b9b5-c78975caebe6.PNG)
 
-### 13. Dependencias
+### 12. Abreviaturas
 
-### 14. Abreviaturas
+![14](https://user-images.githubusercontent.com/22419786/156948335-f1d7ccc8-3927-4eac-a292-7c6da8241f3c.PNG)
