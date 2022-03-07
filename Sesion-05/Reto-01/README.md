@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-* Elaborar un proyecto en JMeter 
+* Presentar resultados y métricas de una prueba de estrés en JMeter.
 
 ## Desarrollo
 
