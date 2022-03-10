@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-* Generar una prueba de carga que permita visualizar los resultados en un reporte HTML de JMeter
+Generar una prueba de carga que permita visualizar los resultados en un reporte HTML de JMeter
 
 ## Desarrollo
 
