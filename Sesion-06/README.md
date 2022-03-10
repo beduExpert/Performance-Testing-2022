@@ -6,13 +6,13 @@
 ### 1. Objetivos :dart: 
 
   * Identificar los tipos de reporte que se pueden obtener de las ejecuciones de pruebas de performance
-  * Integrar JMeter con Github por medio de Jenkins
-  
+  * Relacionar JMeter con Github por medio de Jenkins
+  * Integrar JMeter con herramientas de servidores de datos y contenedores
 
 
 ### 2. Contenido :blue_book:
 
-PENDIENTE!!!
+En esta sesión conoceremos como generar reportes a los resultados de las pruebas de carga en JMeter a través de reportes HTML, y a su vez identificar cómo estas pruebas se integran a otras herramientas como Jenkins, github, servidores de datos y contenedores a través de JMeter.        
 
 ---
 
@@ -20,9 +20,7 @@ PENDIENTE!!!
 
 #### <ins>Tema 1: Reportes y KPIs con JMeter</ins>
 
-PENDIENTE!!!
-
-- [**`EJEMPLO 1`**](./Ejemplo-01)
+En JMeter para obtener los resultados de las ejecuciones de nuestras de pruebas de rendimiento, podemos generar 2 tipos de reportes, el reporte agregado como elemento del proyecto y el reporte HTML que se genera para graicar y mostrar en tabla tal como se muestra en el [**`EJEMPLO 1`**](./Ejemplo-01)
 
 ---
 
@@ -30,17 +28,15 @@ PENDIENTE!!!
 
 #### <ins>Tema 2: JMeter con Jenkins y Github</ins>
 
-PENDIENTE!!!
-
-- [**`EJEMPLO 2 - Integración JMeter con Jenkins y Git`**](./Ejemplo-02)
+A través de github podemos controlar nuestro proyecto de pruebas de carga de JMeter y por medio de Jenkins llevar un job de ejecuciones así como en el [**`EJEMPLO 2 - Integración JMeter con Jenkins y Git`**](./Ejemplo-02)
 ---
 
 <img src="images/emulator.jpg" align="right" height="90"> 
 
 #### <ins>Tema 3: JMeter con servidores de datos y contenedores</ins>
 
-PENDIENTE!!!
-  
+JMeter tiene grandes ventajas y facilidad en la integración con otras herramientas, en este [**`EJEMPLO 3 - `**](./Ejemplo-03) vemos como se relacionan.
+ 
 ---
 Bienvenido a nuestro reto de esta sesión
   
