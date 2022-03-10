@@ -1,15 +1,22 @@
-# Reto # - Nombre del reto
+# Reto # 1 - Generación de reporte HTML
 
 ## Objetivo
 
-* Agregar los objetivos del reto (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
+* Genera una prueba de carga 
 
 ## Desarrollo
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el reto.
->Si no es necesario, puedes borrar esta nota.
+El reto de esta sesión consiste en generar una prueba de carga con 50 usuarios virtuales en un periodo de 2 segundos por peticion y presentar resultados
 
-Aquí se debe agregar el desarrollo del reto, **NO** olvides poner el resultado del ejercicio propuesto para el feedback de los alumnos
+**Reto**
 
+* Crear proyecto en JMeter
+* Grabar escenarios de prueba 
+* Configurar 50 usuarios para 2 segundos entre peticiones
+* Ejecutar la prueba
+* Generar informe HTML
+* Configurar los parámetros del reporte
+* Generar el reporte
+* Aperturar el index del output
+* Mostrar el reporte generado
+* Presentar un análisis de los valores del resultado
