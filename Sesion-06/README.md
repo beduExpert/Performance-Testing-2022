@@ -5,7 +5,10 @@
 
 ### 1. Objetivos :dart: 
 
-PENDIENTE!!!
+  * Identificar los tipos de reporte que se pueden obtener de las ejecuciones de pruebas de performance
+  * Integrar JMeter con Github por medio de Jenkins
+  
+
 
 ### 2. Contenido :blue_book:
 
@@ -39,8 +42,9 @@ PENDIENTE!!!
 PENDIENTE!!!
   
 ---
-
-- [**`RETO 1`**](./Reto-01)
+Bienvenido a nuestro reto de esta sesión
+  
+- [**`RETO 1 - Generación de reporte HTML`**](./Reto-01)
 ---
 
 ### 3. Postwork :memo:
