@@ -2,7 +2,7 @@
 
 ## Objetivo
 
- PENDIENTE!!!
+Demostrar como enviar métricas de resultados con herramientas por medio de tablas y gráficos.
 
 ## Desarrollo
 
@@ -26,7 +26,7 @@ Las métricas del hilo son las siguientes:
     
 ### Configuración JMeter
 
-Para hacer que JMeter envíe métricas al backend, agregue un BackendListener usando InfluxDBBackendListenerClient.
+Para hacer que JMeter envíe métricas al backend, se debe agregar un BackendListener usando InfluxDBBackendListenerClient.
 
 ![1](https://user-images.githubusercontent.com/22419786/156910054-95c29558-5e16-4633-9d1e-a73b30aa1c97.png)
 
@@ -35,12 +35,12 @@ Para hacer que JMeter envíe métricas al backend, agregue un BackendListener us
 
 ### Configuración de InfluxDB
 
-Realice una de las siguientes acciones para almacenar datos enviados por Backend Listener:
+Realizar una de las siguientes acciones para almacenar datos enviados por Backend Listener:
 
-* Para la configuración de InfluxDB 2, cree un cubo jmeter
-* Para la configuración de InfluxDB 1.x, cree una base de datos jmeter usando la CLI de Influx
+* Para la configuración de InfluxDB 2, se debe crear un cubo JMeter
+* Para la configuración de InfluxDB 1.x, se debe crear una base de datos JMeter usando la CLI de Influx
 
-También puede usar la API HTTP, es decir , curl -i -XPOST http://localhost:8086/query --data-urlencode "q=CREATE DATABASE jmeter"
+También se puede usar la API HTTP, es decir, curl -i -XPOST http://localhost:8086/query --data-urlencode "q=CREATE DATABASE jmeter"
 
 **Configuración de InfluxDB para InfluxDBBackendListenerClient**
 
