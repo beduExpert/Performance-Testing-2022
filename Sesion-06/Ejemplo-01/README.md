@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-pendiente!!!!
+Identificar los tipos de reporte que se pueden obtener de las ejecuciones de pruebas de performance
 
 ## Desarrollo
 
