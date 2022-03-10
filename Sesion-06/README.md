@@ -18,7 +18,7 @@ En esta sesión conoceremos como generar reportes a los resultados de las prueba
 
 <img src="images/tools.png" align="right" height="90"> 
 
-#### <ins>Tema 1: Reportes y KPIs con JMeter</ins>
+#### <ins>Tema 1: Reportes con JMeter</ins>
 
 En JMeter para obtener los resultados de las ejecuciones de nuestras de pruebas de rendimiento, podemos generar 2 tipos de reportes, el reporte agregado como elemento del proyecto y el reporte HTML que se genera para graicar y mostrar en tabla tal como se muestra en el [**`EJEMPLO 1 - Prueba de carga con Reporte HTML`**](./Ejemplo-01)
 
@@ -35,9 +35,9 @@ A través de github podemos controlar nuestro proyecto de pruebas de carga de JM
 
 <img src="images/emulator.jpg" align="right" height="90"> 
 
-#### <ins>Tema 3: JMeter con servidores de datos y contenedores</ins>
+#### <ins>Tema 3: KPIs con JMeter</ins>
 
-JMeter tiene grandes ventajas y facilidad en la integración con otras herramientas, en este [**`EJEMPLO 3 - `**](./Ejemplo-03) vemos como se relacionan.
+Los KPIs en JMeter podemos visualizarlos y analizarlos de diferentes maneras y hacer uso de ellos como se evidencia en el [**`EJEMPLO 3 - Análisis de KPIs en JMeter`**](./Ejemplo-03) vemos como se relacionan.
  
 ---
 Bienvenido a nuestro reto de esta sesión
