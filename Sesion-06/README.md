@@ -29,7 +29,7 @@ PENDIENTE!!!
 
 PENDIENTE!!!
 
-- [**`EJEMPLO 2`**](./Ejemplo-02)
+- [**`EJEMPLO 2 - Integración JMeter con Jenkins y Git`**](./Ejemplo-02)
 ---
 
 <img src="images/emulator.jpg" align="right" height="90"> 
