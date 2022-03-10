@@ -20,15 +20,17 @@ En esta sesión conoceremos como generar reportes a los resultados de las prueba
 
 #### <ins>Tema 1: Reportes y KPIs con JMeter</ins>
 
-En JMeter para obtener los resultados de las ejecuciones de nuestras de pruebas de rendimiento, podemos generar 2 tipos de reportes, el reporte agregado como elemento del proyecto y el reporte HTML que se genera para graicar y mostrar en tabla tal como se muestra en el [**`EJEMPLO 1`**](./Ejemplo-01)
+En JMeter para obtener los resultados de las ejecuciones de nuestras de pruebas de rendimiento, podemos generar 2 tipos de reportes, el reporte agregado como elemento del proyecto y el reporte HTML que se genera para graicar y mostrar en tabla tal como se muestra en el [**`EJEMPLO 1 - Prueba de carga con Reporte HTML`**](./Ejemplo-01)
 
 ---
 
 <img src="images/structure.png" align="right" height="90"> 
 
 #### <ins>Tema 2: JMeter con Jenkins y Github</ins>
-
+ 
 A través de github podemos controlar nuestro proyecto de pruebas de carga de JMeter y por medio de Jenkins llevar un job de ejecuciones así como en el [**`EJEMPLO 2 - Integración JMeter con Jenkins y Git`**](./Ejemplo-02)
+ 
+
 ---
 
 <img src="images/emulator.jpg" align="right" height="90"> 
