@@ -30,3 +30,4 @@ La solución a este reto es presentar algunas tablas y gráficos de una prueba d
 
 * Mostrar gráfica de códigos de respuesta por segundo
 
+![7](https://user-images.githubusercontent.com/22419786/158002803-d02cbdbf-6ef1-46e0-9bc3-1b96de03c462.png)
