@@ -47,8 +47,7 @@ Por lo tanto, además de medir el rendimiento, también podemos medir otros comp
 
 #### <ins>Tema 3: Marco de trabajo JUnit</ins>
 
-Ahora que tenemos mayor conocimiento de nuestro proyecto, vamos a configurar un emulador de algún dispositivo móvil para poder correr nuestra aplicación! :iphone:. Es decir, vamos a correr un dispositivo móvil virtual en nuestra computadora para simular la funcionalidad de nuestra app.
-
+JUnit es un marco de trabajo para la automatización de pruebas en los proyectos de software, este permite tener de manera controlada la ejecución de los casos de prueba, para implementarlo podemos ver este [**`EJEMPLO 3: Creación proyecto JMeter con Selenium y JUnit`**](./Ejemplo-03)
 
 ---
 
@@ -58,7 +57,7 @@ Ahora que tenemos mayor conocimiento de nuestro proyecto, vamos a configurar un 
 
 Bienvenido a nuestro RETO de esta sesión.
 
-- [**`RETO 1`**](./Reto-01)
+- [**`RETO 1: Escenario de prueba JMeter con Selenium`**](./Reto-01)
 ---
 
 ### 3. Postwork :memo:
