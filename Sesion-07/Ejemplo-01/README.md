@@ -1,15 +1,9 @@
-# Ejemplo # - Nombre del ejemplo
+# Ejemplo # 1 - Instalación Eclipse y plugins Selenium
 
 ## Objetivo
 
-* Agregar los objetivos del ejemplo (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
+Instalación y configuración de Selenium en Eclipse para pruebas de performance en JMeter
 
 ## Desarrollo
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el ejemplo.
->Si no es necesario, puedes borrar esta nota.
-
-Aquí se debe agregar el desarrollo del ejemplo
 
