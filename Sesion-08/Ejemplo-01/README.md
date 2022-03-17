@@ -42,15 +42,15 @@ Entonces deberíamos recibir uno del servidor Json Response y se ve así:
 
 **Realizar inicio de sesión**
 
-IMAGEN 3
+![3](https://user-images.githubusercontent.com/22419786/158842224-a3e640ac-61ca-4969-a953-93ca2a764cb5.png)
 
 Aqui tenemosListo paraLogin Http RequestEnviar a nuestro servidor. Se oculta la información confidencial, pero esta es básicamente la información de su cuenta.ParaIniciar sesión de depuraciónY usaremosView Results Tree Listener.
 
-IMAGEN 4
+![4](https://user-images.githubusercontent.com/22419786/158842241-78a0173d-08af-42e9-9ea0-23855098fddf.png)
 
 Podemos ver que la solicitud enviada es unPOST-forma-codificado, Que contiene nuestro nombre de usuario y contraseña.¡Nada difícil aquí!Ahora nosotrosEnviar al servidorDeRespuesta JsonInteresado。
 
- IMAGEN 5
+![5](https://user-images.githubusercontent.com/22419786/158842273-b70c48c4-8503-4f3b-a9f1-1b631c40fffd.png)
 
 BienAhora hemos recibidoToken de autenticación, Podemos extraerlo para reutilizarlo en solicitudes posteriores.
 
@@ -65,7 +65,7 @@ Para comenzar desdeRespuesta del servidorExtraer token de autenticaciónY usarem
 2. UnPostprocesadorComoExtracción JsonPathEstá siguiendo la ejecución
 3. ExtractorExtrayendo parte de la respuesta del servidorY ponerlo en una variable${token}。
 
- IMAGEN 6
+![6](https://user-images.githubusercontent.com/22419786/158842296-f8198474-4138-4eae-bc90-25d59a190c78.png)
 
 TenemosUse esta configuraciónConfiguradoJMeter Json Extractor：
 
@@ -77,13 +77,13 @@ TenemosUse esta configuraciónConfiguradoJMeter Json Extractor：
 
 **Habilitar depuración**
  
- IMAGEN 7
+![7](https://user-images.githubusercontent.com/22419786/158842312-d110cc3e-43ad-4a29-b6bc-75194a78c25a.png)
 
 EstableciendoVariables JMeterVentrueY habilitamos la muestraVariable de salidaDurante la prueba de funcionamiento.
 
 **Extracción de prueba**
 
- IMAGEN 8
+![8](https://user-images.githubusercontent.com/22419786/158842335-212f467d-f1bb-4244-8b65-345c84531bac.png)
 
 JMeter Extraiga con éxito el token de la respuesta del servidor utilizando Json Extractor
 
@@ -104,16 +104,16 @@ Esto es exactamente lo que vamos a hacer aquí.
 
 Estamos particularmente interesados ​​ahoraConsultar el espacio de trabajo del usuario。Esto esWorkspacesParte del punto final de la API.
 
- IMAGEN 9
+![9](https://user-images.githubusercontent.com/22419786/158842360-bad54db1-22c1-4b9f-9f43-0420548ebffb.png)
  APIPunto final de la API de descanso del espacio de trabajo de la documentación de la API de Swagger
 
 Lo haremosGETUsar ruta al punto finalEjecutarSolicitud/workspaces/member-of。Debería volverContiene espacio de trabajo del usuarioDeJsonRespuestaEste es un ejemplo de respuesta:
 
- IMAGEN 10
+![10](https://user-images.githubusercontent.com/22419786/158842384-b5182852-e959-4c29-ab01-e508b0d4829b.PNG)
 
 Creemos una solicitud HTTP en JMeter para consultarlos.Es simple, como se muestra en la captura de pantalla a continuación.
 
- IMAGEN 11
+![11](https://user-images.githubusercontent.com/22419786/158842407-9afeabd3-d56b-4e95-bb39-bc2e3ef63347.png)
 
 Aquí configuramos una solicitud HTTP para consultar el espacio de trabajo del usuario:
 
@@ -124,7 +124,7 @@ Aquí configuramos una solicitud HTTP para consultar el espacio de trabajo del u
 
 ¿Se acabó?Aún noActualmente, si no proporcionamos un token de autenticación, el servidor rechazará nuestra solicitud.
 
- IMAGEN 12
+![12](https://user-images.githubusercontent.com/22419786/158842423-66104715-0518-4184-9d1d-e4485c449072.png)
  
  El servidor devolvió un error. Servidor aError HTTP 4xxRechazar solicitud：401 Unauthorized。
 
@@ -134,20 +134,20 @@ Necesitamos pasarAuthorizationA peticiónContieneEncabezados vienenProporcionar 
 
 **Agregar encabezado de autorización** 
 
-IMAGEN 13
- Establecer el token extraído en el encabezado de autorización
+![13](https://user-images.githubusercontent.com/22419786/158842469-41e59f3d-3853-494d-b324-f1db3a0ed197.png)
+Establecer el token extraído en el encabezado de autorización
 
 Recuerda: ya tenemostokenDe/public/users/loginRespuesta del servidor de punto finalExtraído。Ahora es tiempo de reutilizarlo para recuperarAcceso protegidoRecursos:
 
 1. PrimeroEngetWorkspaces HTTP Request AbajoAgrega unoHttp Header Manager，
 2. AgregarAuthorizationCon valorDeEncabezadoBearer ${token}。
 
-IMAGEN 14
- Obtener espacio de trabajo del servidor
+![14](https://user-images.githubusercontent.com/22419786/158842521-10cef544-c9fb-42d7-bc0b-16ea01b763ea.png)
+Obtener espacio de trabajo del servidor
 
 Eso es genial!¡Está funcionando ahora!Tenemos todos los espacios de trabajo que pertenecen al usuario conectado.
 
-IMAGEN 15
+![15](https://user-images.githubusercontent.com/22419786/158842530-a63d853d-925b-4d1b-8a38-9543e8023352.png)
 
  Se envió el encabezado de autorización en la solicitud
 
@@ -159,11 +159,11 @@ La mayoría de los servidores envían json en formato compacto, omitiendo la san
 
 Para resolver este problema,JSON Formatter PostProcessorPuede hacer bien el trabajo.
 
-IMAGEN 16
+![16](https://user-images.githubusercontent.com/22419786/158842561-ee2a310e-3e4e-41a5-abc5-0a7f269786e3.png)
 
 JMeter Json Formatter PostProcessorJMeter Json formateador postprocesador
 
-IMAGEN 17
+![17](https://user-images.githubusercontent.com/22419786/158842577-41705cba-a530-4fc9-9ed6-bfb29fde7711.png)
 
 JMeter Json ¡Json imprime maravillosamente ahora!
 
@@ -175,7 +175,7 @@ Nos aseguraremos de que la respuesta del servidor contengaPersonalÁrea de traba
 
 **Configuracion**
 
-IMAGEN 18
+![18](https://user-images.githubusercontent.com/22419786/158842618-c1db0089-bda4-4885-9a7b-64ca31229f80.png)
 
 JMeter Json La respuesta de afirmación contiene un espacio de trabajo personal
 
@@ -189,13 +189,13 @@ Json afirma la configuración de la siguiente manera:
 
 Supongamos que afirmamosValor esperadoSiOtherNo esPersonal。
 
-IMAGEN 19
+![19](https://user-images.githubusercontent.com/22419786/158842643-2567e5f3-4106-4aa2-be69-4cbc47d0cfb6.png)
 
 JMeter Json Encuentra el nombreOtrosEspacio de trabajo, la aserción Json falla
 
 Como se esperaba, la afirmación falla con el siguiente mensaje:
 
-IMAGEN 20
+![20](https://user-images.githubusercontent.com/22419786/158842669-119dde43-01c1-41b5-8cfa-58812356467e.PNG)
 
 **Rendimiento**
 
@@ -212,13 +212,13 @@ Esta es la última parte de este tutorial:
 
 Projects Rest APIPunto final de API de Rest de proyectos de OctoPerf
 
-IMAGEN 21
+![21](https://user-images.githubusercontent.com/22419786/158842751-e9bdcaa1-7c8d-4eda-b0d3-1dbda894d642.png)
 
 El último punto final de Rest API nos interesa.Lo llamaremos desde JMeter, pero primero necesitamosExtraer un espacio de trabajo aleatorio。
 
 **Extraer WorkspaceId** 
 
-IMAGEN 22
+![22](https://user-images.githubusercontent.com/22419786/158842771-b3c6e321-c878-4161-aa52-71f85f758329.png)
 
 Extractor está configurado comogetWorkspacesSolicitudPost procesador,Tiene la siguiente configuración:
 
@@ -232,7 +232,7 @@ Esto extraerá un espacio de trabajo aleatorio y lo colocará en${workspaceId}Va
 
 Finalmente, necesitamos consultar el proyecto en función del contenido extraído previamenteworkspaceId。Para esto yoCopiar y modificar solicitud previaPara tener algo de tiempo.
 
-IMAGEN 23
+![23](https://user-images.githubusercontent.com/22419786/158842795-30c41324-9bb9-4812-9057-d7f8fb08dd2f.png)
 
 JMeter Json Consultar proyecto usando workspaceId variable
 
@@ -247,7 +247,7 @@ Aquí configuramos una solicitud HTTP para consultar el proyecto del espacio de 
 
 **Ver resultados**
 
-IMAGEN 24
+![24](https://user-images.githubusercontent.com/22419786/158842818-6ba76821-dfb0-4bf8-bee4-6b45ca353eca.png)
 
 La ejecución conduce al elemento de consulta
 
