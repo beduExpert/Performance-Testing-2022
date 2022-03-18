@@ -1,33 +1,47 @@
 ## Solución
   
-La solución a este reto es presentar algunas tablas y gráficos de una prueba de carga con 50 usuarios virtuales en un periodo de 2 segundos por peticion desde un reporte HTML en JMeter.
+La solución a este reto es presentar el resultado de la ejecución del proyecto en JMeter consumiendo una API y cargando datos desde un archivo CSV.
 
 **Pasos**
 
-* Mostrar el reporte inicial generado
+* Crear proyecto en JMeter con toda la estructura que ya hemos trabajado
 
-![1](https://user-images.githubusercontent.com/22419786/158002766-878ccf96-5aa2-41d2-8317-c4aefef12e63.png)
+* Crear la solicitud HTTP  para el consumo de la API
 
-* Presentar la tabla de estadísticas para visualizar métricas
+![1](https://user-images.githubusercontent.com/22419786/158936700-91008d86-9663-450e-aa6a-4f37d77a8377.png)
 
-![2](https://user-images.githubusercontent.com/22419786/158002773-f6c969b5-f8b4-4008-9071-d2712cc69ea9.png)
+* Incorporar archivo CSV
 
-* Evidenciar tabla de errores
+![2](https://user-images.githubusercontent.com/22419786/158936711-b0a7f2c9-6d6c-4360-aa18-760305fee456.png)
 
-![3](https://user-images.githubusercontent.com/22419786/158002776-668bbdde-19eb-40c4-9d4a-1900fc558d77.png)
+* Agregar el formato de respuesta JSON
 
-* Presentar gráfica de latencia
+![3](https://user-images.githubusercontent.com/22419786/158936727-2dfacc4b-64d7-41e7-ad6b-3cebdf79f353.png)
 
-![4](https://user-images.githubusercontent.com/22419786/158002777-55782537-abfc-469c-8d65-2fa847f22bc6.png)
+* Indicar método (GET-POST) para inicio de la prueba
 
-* Mostrar gráfica de transacciones por segundo
+![4](https://user-images.githubusercontent.com/22419786/158936743-aad17526-4200-4043-b5e3-0f4d97f6445a.png)
 
-![5](https://user-images.githubusercontent.com/22419786/158002779-e1154539-a0bc-4fe7-b784-a876a5babf1f.png)
+* Agregar JSON Extractor e indicar la expresion que se desea extraer
 
-* Obtener gráfica de tiempo vs cantidad de usuarios
+![5](https://user-images.githubusercontent.com/22419786/158936761-040ea238-6d0f-4c21-b51d-98abec08fb07.png)
 
-![6](https://user-images.githubusercontent.com/22419786/158002783-306800b5-e58d-4920-968e-04de45b7ebce.png)
+* Preparar la prueba indicando más de 1 usuario simulado
 
-* Mostrar gráfica de códigos de respuesta por segundo
+![6](https://user-images.githubusercontent.com/22419786/158936802-54bebfbf-00a3-49f4-819d-70017efcadc7.png)
 
-![7](https://user-images.githubusercontent.com/22419786/158002803-d02cbdbf-6ef1-46e0-9bc3-1b96de03c462.png)
+* Ejecutar el proyecto
+
+![7](https://user-images.githubusercontent.com/22419786/158936814-15576b42-d392-4c01-b6d9-d526d03739da.png)
+
+* Presentar resultado Sampler
+
+![8](https://user-images.githubusercontent.com/22419786/158936854-6fea0495-3cf5-42ee-8cca-c9dcf7ba1f2e.png)
+
+* Presentar request
+
+![9](https://user-images.githubusercontent.com/22419786/158936870-a6ac3364-334b-420a-b96b-ff8aa9ae18b3.png)
+
+* Presentar response
+
+![10](https://user-images.githubusercontent.com/22419786/158936891-51ac9268-ff49-41bf-a0f9-4d0b28b95db5.png)
