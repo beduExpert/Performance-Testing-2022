@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-PENDIENTE !!!
+Realizar pruebas de rendimiento en JMeter consumiendo una API
 
 ## Desarrollo
 
