@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-PENDIENTE!!!
+Generar un proyecto en JMeter donde se consuma una API y los datos de prueba se incorporen desde un archivo CSV
 
 ## Desarrollo
 
