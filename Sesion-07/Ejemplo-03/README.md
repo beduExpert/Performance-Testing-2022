@@ -8,12 +8,12 @@ Configurar y ejecutar escenario de prueba utilizando JMeter, Selenium y el marco
 
 Primero necesitamos instalar algunas cosas:
 
-- Selenium
-- JMeter
-- JMeter Plugin WebDriver
-- WebDrivers de Chrome, Firefox y/o Edge
-- WebDriver Language Bindings para Java
-- Intellij Idea o algun otro IDE para Java
+- Selenium (Instalación de Eclipse y sus plugins en Prework)
+- JMeter (Herramienta en la que hemos venido trabajando) https://jmeter.apache.org/download_jmeter.cgi
+- JMeter Plugin WebDriver (https://jmeter-plugins.org/?search=jpgc-webdriver)
+- WebDrivers de Chrome, Firefox y/o Edge (Detalle en Prework) Chrome (https://jmeter.apache.org/download_jmeter.cgi) - Edge (https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
+- WebDriver Language Bindings para Java (https://www.selenium.dev/downloads/)
+- Intellij Idea o algun otro IDE para Java (https://www.jetbrains.com/es-es/idea/download/#section=windows)
 
 Con todo esto podemos comenzar a grabar nuestras pruebas en Selenium. A continuación tenemos un ejemplo:
 
