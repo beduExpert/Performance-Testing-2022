@@ -5,10 +5,10 @@
 
 ### 1. Objetivos :dart: 
 
-- Ejecutar los pasos requeridos para la instalación y configuración de Selenium
-- Elaborar un proyecto en JMeter integrado con Selenium
-- Estructurar proyecto en Selenium con programación orientada a objetos
-- Utilizar marcos de trabajo para ejecución controlada de casos.
+* Realizar la instalación y configuración de Selenium.
+* Desarrollar un proyecto en JMeter integrado con Selenium.
+* Hacer uso de la programación orientada a objetvos en el proyecto de Selenium.
+* Utilizar marcos de trabajo para la ejecución controlada de casos.
 
 
 ### 2. Contenido :blue_book:
