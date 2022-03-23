@@ -5,9 +5,9 @@
 
 ### 1. Objetivos :dart: 
 
-  * Identificar los tipos de reporte que se pueden obtener de las ejecuciones de pruebas de performance
-  * Relacionar JMeter con Github por medio de Jenkins
-  * Integrar JMeter con herramientas de servidores de datos y contenedores
+* Ejemplificar los tipos de reporte que se pueden obtener de las ejecuciones de pruebas de performance
+* Emplear JMeter con Github por medio de Jenkins
+* Operar JMeter con herramientas de servidores de datos y contenedores
 
 
 ### 2. Contenido :blue_book:
