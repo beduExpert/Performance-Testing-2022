@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Instalación y configuración de Selenium en Eclipse para pruebas de performance en JMeter
+Realizar la instalación y configuración de Selenium
 
 ## Desarrollo
 
