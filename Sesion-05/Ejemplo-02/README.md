@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-PENDIENTE!!!
+Presentar los resultados de una prueba de rendimiento en JMeter con sus diferentes elementos de resultados y los campos clave para el correcto análisis de resultados.
 
 ## Desarrollo
 
