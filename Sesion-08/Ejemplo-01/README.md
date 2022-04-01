@@ -24,7 +24,7 @@ Primero, veamos cómo iniciar sesión. Afortunadamente, nuestra API tiene un Esp
 
  Swagger SpecDoc especifica cómo iniciar sesión a través de la API
 
-Bien!Ahora echemos un vistazo a las solicitudes requeridas para la falsificación con JMeter:
+Bien! Ahora echemos un vistazo a las solicitudes requeridas para la falsificación con JMeter:
 
 * Método http: Debe serPOSTSolicitud con algunos parámetros de publicación, (verGET vs POST）
 * Http Scheme：httpsGracias a nuestra API RestProtegido por SSL，
@@ -44,22 +44,24 @@ Entonces deberíamos recibir uno del servidor Json Response y se ve así:
 
 ![3](https://user-images.githubusercontent.com/22419786/158842224-a3e640ac-61ca-4969-a953-93ca2a764cb5.png)
 
-Aqui tenemosListo paraLogin Http RequestEnviar a nuestro servidor. Se oculta la información confidencial, pero esta es básicamente la información de su cuenta.ParaIniciar sesión de depuraciónY usaremosView Results Tree Listener.
+Aqui tenemos listo para el login nuestro Http Request, debemos enviar a nuestro servidor, se oculta la información confidencial, pero esta es básicamente la información de su cuenta. Para iniciar sesión de depuración utilizaremos View Results Tree Listener.
 
 ![4](https://user-images.githubusercontent.com/22419786/158842241-78a0173d-08af-42e9-9ea0-23855098fddf.png)
 
-Podemos ver que la solicitud enviada es unPOST-forma-codificado, Que contiene nuestro nombre de usuario y contraseña.¡Nada difícil aquí!Ahora nosotrosEnviar al servidorDeRespuesta JsonInteresado。
+Podemos ver que la solicitud enviada es un POST-forma-codificado, que contiene nuestro nombre de usuario y contraseña. Ahora vamos a enviar al servidor de respuesta el  Json interesado。
 
 ![5](https://user-images.githubusercontent.com/22419786/158842273-b70c48c4-8503-4f3b-a9f1-1b631c40fffd.png)
 
-BienAhora hemos recibidoToken de autenticación, Podemos extraerlo para reutilizarlo en solicitudes posteriores.
+Ahora hemos recibido el Token de autenticación y podemos extraerlo para reutilizarlo en solicitudes posteriores.
 
 **Extraer token de autenticación**
 
-Autenticación basada en tokensEs un mecanismo simple donde los tokensIdentifique de forma exclusiva la sesión del usuario。Necesitamos lidiar con estodynamic parameterPara imitar adecuadamente conJson APIUsuario interactivo。
+Autenticación basada en tokens
+
+Es un mecanismo simple donde los tokens se identifican de forma exclusiva para la sesión del usuario。Necesitamos hacer uso de estodynamic parameter para imitar adecuadamente conJson APIUsuario interactivo。
 
 **Use Json Extractor**
-Para comenzar desdeRespuesta del servidorExtraer token de autenticaciónY usaremosJMeter JsonPath Extractor。El proceso de extracción de variables de la respuesta es el siguiente:
+Para comenzar desde la respuesta del servidor se extrae el token de autenticación y usaremos JMeter JsonPath Extractor。El proceso de extracción de variables de la respuesta es el siguiente:
 
 1. El servidor devuelve una respuesta a nuestra solicitud de inicio de sesión,
 2. UnPostprocesadorComoExtracción JsonPathEstá siguiendo la ejecución
