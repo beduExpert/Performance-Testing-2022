@@ -58,7 +58,7 @@ Ahora hemos recibido el Token de autenticación y podemos extraerlo para reutili
 
 Autenticación basada en tokens
 
-Es un mecanismo simple donde los tokens se identifican de forma exclusiva para la sesión del usuario。Necesitamos hacer uso de estodynamic parameter para imitar adecuadamente conJson APIUsuario interactivo。
+Es un mecanismo simple donde los tokens se identifican de forma exclusiva para la sesión del usuario。Necesitamos hacer uso de esto dynamic parameter para imitar adecuadamente conJson API Usuario interactivo。
 
 **Use Json Extractor**
 Para comenzar desde la respuesta del servidor se extrae el token de autenticación y usaremos JMeter JsonPath Extractor。El proceso de extracción de variables de la respuesta es el siguiente:
@@ -139,12 +139,13 @@ Necesitamos pasarAuthorizationA peticiónContieneEncabezados vienenProporcionar 
 ![13](https://user-images.githubusercontent.com/22419786/158842469-41e59f3d-3853-494d-b324-f1db3a0ed197.png)
 Establecer el token extraído en el encabezado de autorización
 
-Recuerda: ya tenemostokenDe/public/users/loginRespuesta del servidor de punto finalExtraído。Ahora es tiempo de reutilizarlo para recuperarAcceso protegidoRecursos:
+Recuerda: ya tenemos token D/public/users/loginRespuesta del servidor de punto final extraído。Ahora es tiempo de reutilizarlo para recuperar Acceso protegido Recursos:
 
-1. PrimeroEngetWorkspaces HTTP Request AbajoAgrega unoHttp Header Manager，
-2. AgregarAuthorizationCon valorDeEncabezadoBearer ${token}。
+1. Primero EngetWorkspaces HTTP Request Abajo Agrega un Http Header Manager，
+2. AgregarAuthorization Con valor De Encabezado Bearer ${token}。
 
 ![14](https://user-images.githubusercontent.com/22419786/158842521-10cef544-c9fb-42d7-bc0b-16ea01b763ea.png)
+
 Obtener espacio de trabajo del servidor
 
 Eso es genial!¡Está funcionando ahora!Tenemos todos los espacios de trabajo que pertenecen al usuario conectado.
@@ -155,11 +156,11 @@ Eso es genial!¡Está funcionando ahora!Tenemos todos los espacios de trabajo qu
 
 El encabezado de autorización se incluyó correctamente en el encabezado de la solicitud.Sin embargo, una cosa es molesta:El formato Json es incorrecto。Por qué
 
-La mayoría de los servidores envían json en formato compacto, omitiendo la sangría.Esto es por razones de rendimiento (reducir el uso de ancho de banda y el uso de CPU del servidor)
+La mayoría de los servidores envían json en formato compacto, omitiendo la sangría. Esto es por razones de rendimiento (reducir el uso de ancho de banda y el uso de CPU del servidor)
 
 **Formato de respuesta Json**
 
-Para resolver este problema,JSON Formatter PostProcessorPuede hacer bien el trabajo.
+Para resolver este problema,JSON Formatter PostProcessor Puede hacer bien el trabajo.
 
 ![16](https://user-images.githubusercontent.com/22419786/158842561-ee2a310e-3e4e-41a5-abc5-0a7f269786e3.png)
 
@@ -173,7 +174,7 @@ Ahora podemos usarJson Assertion(EnJMeter 4.0Introducir）Características de gr
 
 **Usar afirmación Json**
 
-Nos aseguraremos de que la respuesta del servidor contengaPersonalÁrea de trabajoEsto esEl trabajo asertivo de Json。Para agregar aserciones Json, haga clic con el botón derecho en la muestra de solicitud HTTP y seleccioneAdd > Post Processor > Json Assertion。
+Nos aseguraremos de que la respuesta del servidor contenga Personal Área de trabajo Esto es el trabajo asertivo de Json。Para agregar aserciones Json, haga clic con el botón derecho en la muestra de solicitud HTTP y seleccioneAdd > Post Processor > Json Assertion。
 
 **Configuracion**
 
@@ -193,7 +194,7 @@ Supongamos que afirmamosValor esperadoSiOtherNo esPersonal。
 
 ![19](https://user-images.githubusercontent.com/22419786/158842643-2567e5f3-4106-4aa2-be69-4cbc47d0cfb6.png)
 
-JMeter Json Encuentra el nombreOtrosEspacio de trabajo, la aserción Json falla
+JMeter Json Encuentra el nombre Otros Espacio de trabajo, la aserción Json falla
 
 Como se esperaba, la afirmación falla con el siguiente mensaje:
 
@@ -201,11 +202,11 @@ Como se esperaba, la afirmación falla con el siguiente mensaje:
 
 **Rendimiento**
 
-Por supuesto, no está limitado a usar Json Assertion.Si te gustaTambién se puede utilizarJMeter Response Assertion。SeEn términos de rendimientoInclusoBeneficiosoPorqueDe acuerdo a nuestroTabla de comparación de rendimiento de afirmación，Afirmación de respuestaConsume menos recursos de CPU / memoria que las aserciones de Json。
+Por supuesto, no está limitado a usar Json Assertion. Si te gusta, también se puede utilizar JMeter Response Assertion。En términos de rendimiento incluso es beneficioso porque de acuerdo a nuestra tabla de comparación de rendimiento de afirmación，afirmación de respuesta consume menos recursos de CPU / memoria que las aserciones de Json。
 
 **Simula comportamiento dinámico**
 
-Ahora sabemos cómo iniciar sesión en la API de Json Rest y enviarAcceso protegidoPunto finalSolicitudVamos a ver comodynamically behavingUsando JMeterSimulaciónUsuario.
+Ahora sabemos cómo iniciar sesión en la API de Json Rest y enviar Acceso protegido a Punto final. Vamos a ver como dinámicamente behaving Usando JMeter Simulación Usuario.
 
 Esta es la última parte de este tutorial:
 
@@ -216,13 +217,13 @@ Projects Rest APIPunto final de API de Rest de proyectos de OctoPerf
 
 ![21](https://user-images.githubusercontent.com/22419786/158842751-e9bdcaa1-7c8d-4eda-b0d3-1dbda894d642.png)
 
-El último punto final de Rest API nos interesa.Lo llamaremos desde JMeter, pero primero necesitamosExtraer un espacio de trabajo aleatorio。
+El último punto final de Rest API nos interesa.Lo llamaremos desde JMeter, pero primero necesitamos Extraer un espacio de trabajo aleatorio。
 
 **Extraer WorkspaceId** 
 
 ![22](https://user-images.githubusercontent.com/22419786/158842771-b3c6e321-c878-4161-aa52-71f85f758329.png)
 
-Extractor está configurado comogetWorkspacesSolicitudPost procesador,Tiene la siguiente configuración:
+Extractor está configurado comogetWorkspacesSolicitudPost procesador, tiene la siguiente configuración:
 
 * Crear nombre de variable：workspaceId，
 * Expresión de Json Path：$..id，
@@ -232,7 +233,7 @@ Esto extraerá un espacio de trabajo aleatorio y lo colocará en${workspaceId}Va
 
 **Elemento de consulta**
 
-Finalmente, necesitamos consultar el proyecto en función del contenido extraído previamenteworkspaceId。Para esto yoCopiar y modificar solicitud previaPara tener algo de tiempo.
+Finalmente, necesitamos consultar el proyecto en función del contenido extraído previamente workspaceId。Para esto Copiar y modificar la solicitud previa para tener algo de tiempo.
 
 ![23](https://user-images.githubusercontent.com/22419786/158842795-30c41324-9bb9-4812-9057-d7f8fb08dd2f.png)
 
@@ -253,4 +254,4 @@ Aquí configuramos una solicitud HTTP para consultar el proyecto del espacio de 
 
 La ejecución conduce al elemento de consulta
 
-Si ejecutamos al usuario varias veces, veremosFactor de respuestaExtracciónDeEspacio de trabajo aleatorioMientras queDiferente。
+Si ejecutamos al usuario varias veces, veremos factor de respuesta extracción de espacio de trabajo aleatorio。
