@@ -30,9 +30,9 @@ Se detalla como configurar el navegador proxy tanto para Chrome, como Safari, co
 
 #### <ins>Tema 2: Configuración JMeter (Sin uso de Template)</ins>
 
-Con la inicialización de la herramienta JMeter, hemos podido ver cual es la estructura básica de un proyecto para pruebas de rendimiento, lo hemos hecho a través de un template de grabación para comprender los elementos que debe tener dicho proyecto. En esta instancia ya podemos crear un proyecto dentro de la herramienta sin usar el template sino ir añadiendo los elementos que requerimos para nuestra prueba, teniendo en cuenta el plan de pruebas, nuestro elemento para los escenarios de prueba, el grabador y nuestro árbol de resultados.
+Con la inicialización de la herramienta JMeter, hemos podido ver cuál es la estructura básica de un proyecto para pruebas de rendimiento, lo hemos hecho a través de un template de grabación para comprender los elementos que debe tener dicho proyecto. En esta instancia ya podemos crear un proyecto dentro de la herramienta sin usar el template sino ir añadiendo los elementos que requerimos para nuestra prueba, teniendo en cuenta el plan de pruebas, nuestro elemento para los escenarios de prueba, el grabador y nuestro árbol de resultados.
   
-  En el siguiente [**`EJEMPLO 2: Elaboración plan de pruebas sin Template`**](./Ejemplo-02) veremos como realizarlo.
+  En el siguiente [**`EJEMPLO 2: Elaboración plan de pruebas sin Template`**](./Ejemplo-02) veremos cómo realizarlo.
   
 ---
 
