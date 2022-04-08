@@ -105,7 +105,7 @@ JMeter es un software de código abierto diseñado totalmente en JAVA cuyo fin e
   
 Para iniciar esta herramienta veremos el siguiente ejemplo, empecemos con su instalación, configuración y ejecución.
 
-- [**`EJEMPLO 1`**](./Ejemplo-01)
+- [**`EJEMPLO 1: Instalación de JMeter y las herramientas prerrequisito`**](./Ejemplo-01)
 
 ---
 
@@ -113,13 +113,13 @@ Para iniciar esta herramienta veremos el siguiente ejemplo, empecemos con su ins
 
 En el paso anterior ya vimos cómo se ejecuta la aplicación, ahora vamos a crear nuestro primer Test Plan con una ejecución sencilla de acuerdo con el siguiente ejemplo:
   
-- [**`EJEMPLO 2`**](./Ejemplo-02)
+- [**`EJEMPLO 2: Configuración de un Test Plan`**](./Ejemplo-02)
 
 Ahora, con esta primera ejecución sencilla que hemos realizado vamos a iniciar con el primer Reto de este curso.
   
   Comencemos!
 
-- [**`RETO 1`**](./Reto-01)
+- [**`RETO 1: Creación y ejecución de un test plan básico`**](./Reto-01)
 ---
 
 ### 3. Postwork :memo:
