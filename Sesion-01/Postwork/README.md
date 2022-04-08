@@ -3,7 +3,7 @@
 ## :dart: Objetivos
 
 - Ejecutar escenario de prueba con otros datos.
-- Grabar y ejecutar otra transacción sencilla de una página web.
+- Emplear una transacción sencilla de una página web.
 
 
 ## Desarrollo
@@ -12,8 +12,8 @@ En esta sesión se harán variaciones a los datos que se envían en las peticion
 
 **Asegúrate de comprender:**
 
-- Cómo se estructura un test plan
-- Donde se indican las variables de prueba (hilos y tiempos)
+- Cómo se estructura un test plan.
+- Dónde se indican las variables de prueba (hilos y tiempos).
 
 **Indicaciones Generales**
 
@@ -29,5 +29,5 @@ Luego de la ejecución de la prueba de carga con 30 usuarios simultáneos revisa
 
 * Ejecutar con **100 hilos** (usuarios) la transacción con intervalos de 2 segundos la petición.
 
-Luego de la ejecución de la prueba de carga con 100 usuarios simultáneos revisamos el árbol de resultados donde vemos la cantidad de pasos exitosos vs. fallidos que resultaron, si no hay fallidos el sistema está soportando satisfactoriamente la cantidad de usuarios, de lo contrario vamos revisando cuantos pasos fallidos resultaron y vamos comparando qué cantidad soporta el sistema. Ahora, si en alguno de los 2 pasos anteriores hubo muchos pasos fallidos este va a ser muy probable que ocurra con mayor cantidad.
+Luego de la ejecución de la prueba de carga con 100 usuarios simultáneos revisamos el árbol de resultados donde vemos la cantidad de pasos exitosos vs fallidos que resultaron, si no hay fallidos el sistema está soportando satisfactoriamente la cantidad de usuarios, de lo contrario vamos revisando cuantos pasos fallidos resultaron y vamos comparando qué cantidad soporta el sistema. Ahora, si en alguno de los 2 pasos anteriores hubo muchos pasos fallidos este va a ser muy probable que ocurra con mayor cantidad.
 
