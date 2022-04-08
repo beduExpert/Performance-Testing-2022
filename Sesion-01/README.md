@@ -16,7 +16,7 @@
 
 ### 2. Contenido :blue_book:
 
-JMeter te ayudará a certificar que el producto de software para las transacciones que tengas de prueba cumpla con los requerimientos no funcionales para su paso a producción, aquí conocerás su definición, importancia y roles que intervienen en los proyectos a nivel de pruebas, ademas de conocer como elaborar un documento de seguimiento del proceso de pruebas junto con su procedimiento de instalación y ejecución.
+JMeter te ayudará a certificar que el producto de software para las transacciones que tengas de prueba cumpla con los requerimientos no funcionales para su paso a producción, aquí conocerás su definición, importancia y roles que intervienen en los proyectos a nivel de pruebas, además de conocer como elaborar un documento de seguimiento del proceso de pruebas junto con su procedimiento de instalación y ejecución.
 
 ---
 
@@ -34,12 +34,12 @@ Para su correcto funcionamiento se deben enviar condiciones de prueba muy simila
 - Encontrar cuellos de Botella
 - Revisar que el producto cumpla con las expectativas deseadas
 - Simular diferente cantidad de usuarios simulados para garantizar el rendimiento de las pruebas
-- Garantizar el pase a produccion del sistema.
+- Garantizar el pase a producción del sistema
   
   
 **Roles de Pruebas**
   
-Exiten 2 roles en el ámbito de las pruebas de performande, el lider y el tester, el lider se encarga de recopilar y analizar los requerimientos de prueba de rendimiento, preparar la estrategia de pruebas y participar en las revisiones de cada version entregada, mientras que el teste debe analizar los excenariosm grabarlos, ejecutar y analizar sus resultados.
+Existen 2 roles en el ámbito de las pruebas de performance, el líder y el tester; el líder se encarga de recopilar y analizar los requerimientos de prueba de rendimiento, preparar la estrategia de pruebas y participar en las revisiones de cada version entregada, mientras que el teste debe analizar los excenarios grabarlos, ejecutar y analizar sus resultados.
   
 ---
 #### <ins>Tema 2: Proceso de Pruebas</ins>
@@ -66,11 +66,11 @@ En esta etapa se lleva a cabo la planificación y el diseño de las pruebas, aqu
   
 Se inicia con la elaboración de los casos de uso propios para los escenarios de prueba diseñados. También se presentan al cliente para su revisión y aprobación.
 
-Cuando se han aprobado los casos de uso, se inicia el desarrollo de los scripts en la herramienta seleccionada en la Prueba de Concepto teniendo en cuenta los parámetros a ajustar (Data), y funciones que deban incluirse de forma personalizada de acuerdo a los requerimientos.
+Cuando se han aprobado los casos de uso, se inicia el desarrollo de los scripts en la herramienta seleccionada en la Prueba de Concepto teniendo en cuenta los parámetros a ajustar (Data), y funciones que deban incluirse de forma personalizada de acuerdo con los requerimientos.
   
 **Modelamiento de las Pruebas de Performance**
   
-Este es creado para la ejecución de las pruebas, se simula el rendimiento de la aplicación de acuerdo a los lineamientos dados por el cliente pero contando con un número máximo de usuarios que la aplicación podría soportar o no.
+Este es creado para la ejecución de las pruebas, se simula el rendimiento de la aplicación de acuerdo con los lineamientos dados por el cliente pero contando con un número máximo de usuarios que la aplicación podría soportar o no.
   
 **Ejecución de Pruebas**
   
@@ -111,7 +111,7 @@ Para iniciar esta herramienta veremos el siguiente ejemplo, empecemos con su ins
 
 #### <ins>Tema 4: Prueba del Test Plan</ins>
 
-En el paso anterior ya vimos cómo se ejecuta la aplicación, ahora vamos a crear nuestro primer Test Plan con una ejecución sencilla de acuerdo al siguiente ejemplo:
+En el paso anterior ya vimos cómo se ejecuta la aplicación, ahora vamos a crear nuestro primer Test Plan con una ejecución sencilla de acuerdo con el siguiente ejemplo:
   
 - [**`EJEMPLO 2`**](./Ejemplo-02)
 
