@@ -1,4 +1,4 @@
-# Ejemplo 1: Instalación de JMeter y las herramientas prerrequisito.
+# Ejemplo 1: Instalación de JMeter y las herramientas prerrequisito
 
 ## Objetivo
 
