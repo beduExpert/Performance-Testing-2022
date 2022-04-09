@@ -1,4 +1,4 @@
-# Sesión #1: Introducción a Performance Testing & JMeter 
+# Sesión 1: Introducción a Performance Testing & JMeter 
 
 ## :dart: Objetivos
 
