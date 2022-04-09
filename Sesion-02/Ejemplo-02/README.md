@@ -1,9 +1,9 @@
-# Ejemplo # 2 - Elaboración plan de pruebas sin Template
+# Ejemplo 2: Elaboración plan de pruebas sin Template
 
 ## Objetivo
 
-* Elaborar un plan de pruebas incluyendo los elementos necesarios para el funcionamiento de las pruebas.
-* Incorporar los elementos necesarios para el plan de pruebas.
+* Realizar un plan de pruebas incluyendo los elementos necesarios para el funcionamiento de las pruebas.
+* Emplear los elementos necesarios para el plan de pruebas.
 
 ## Desarrollo
 
@@ -11,15 +11,15 @@
 
 JMeter permite configurar manualmente su área de trabajo. Es más complejo, pero puede hacer que los scripts se ajusten a sus necesidades puntuales.
 
-1. Crear un TestPlan en la herramienta (Proyecto JMeter)
+1. Crear un TestPlan en la herramienta (Proyecto JMeter).
 
 2. La rama "WorkBench" se puede usar como un espacio de trabajo temporal para crear scripts. Se debe tener en cuenta que las entradas agregadas a esta sección no se guardarán con el plan de prueba. Por lo tanto, si desea reutilizar la misma configuración de grabación en el futuro, deberá copiarla y pegarla en la sección "Plan de prueba".
 
-3. Agregue “Controlador de grabación” a “Banco de trabajo”: haga clic derecho en “Banco de trabajo” -> “Agregar” -> “Controlador lógico” -> “Controlador de grabación”
+3. Agregue “Controlador de grabación” a “Banco de trabajo”: haga clic derecho en “Banco de trabajo” -> “Agregar” -> “Controlador lógico” -> “Controlador de grabación”.
 
 ![Control logico](https://user-images.githubusercontent.com/22419786/155257635-b8c79a2d-644c-4b2c-996e-ee6f7931638b.png)
 
-4. Agregue “HTTP (S) Test Script Recorder” al mismo “WorkBench”: haga clic derecho en “WorkBench” -> “Add” -> “Non-Test Elements” -> “HTTP (S) Test Script Recorder”
+4. Agregue “HTTP (S) Test Script Recorder” al mismo “WorkBench”: haga clic derecho en “WorkBench” -> “Add” -> “Non-Test Elements” -> “HTTP (S) Test Script Recorder”.
 
 ![test script record](https://user-images.githubusercontent.com/22419786/155257690-fd251b2f-90af-4eb8-8ba9-96a7cbef4c42.png)
 
