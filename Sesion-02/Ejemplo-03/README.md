@@ -1,8 +1,8 @@
-# Ejemplo # 3 - Pasos para grabación de tráfico HTTPS
+# Ejemplo 3: Pasos para grabación de tráfico HTTPS
 
 ## Objetivo
 
-Presentar la configuración en JMeter a nivel de tráfico HTTPS teniendo en cuenta la configuración del Proxy SSL.
+Mostrar la configuración en JMeter a nivel de tráfico HTTPS teniendo en cuenta la configuración del Proxy SSL.
 
 ## Desarrollo
 
