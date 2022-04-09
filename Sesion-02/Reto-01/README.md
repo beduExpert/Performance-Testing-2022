@@ -1,4 +1,4 @@
-# Reto # 1 - Grabación desde herramienta externa y ejecución en JMeter
+# Reto 1: Grabación desde herramienta externa y ejecución en JMeter
 
 ## Objetivo
 
@@ -11,13 +11,13 @@ El reto en esta sesión consiste en seleccionar una de las 2 herramientas de gra
 
 **Reto**
 
-* Se debe identificar una transaccion de cualquier página web para tener lista al momento de iniciar la grabación del escenario de prueba, puede ser un login, un registro, el ingreso a un homepage, etc.
-* Elegir y descargar una de las 2 herramientas externas (BlazeMeter o BadBoy) 
-* Iniciar la grabación en la web para la transacción identificada
-* Integrar la grabación con JMeter en su estructura
-* En JMeter, incluir 15 números de usuarios (Threads) con 1 segundo de tiempo en cada petición
-* Realizar una prueba de rendimiento con esta información y presentar resultados
+* Se debe identificar una transacción de cualquier página web para tener lista al momento de iniciar la grabación del escenario de prueba, puede ser un login, un registro, el ingreso a un homepage, etcétera.
+* Elegir y descargar una de las 2 herramientas externas (BlazeMeter o BadBoy).
+* Iniciar la grabación en la web para la transacción identificada.
+* Integrar la grabación con JMeter en su estructura.
+* En JMeter, incluir 15 números de usuarios (Threads) con 1 segundo de tiempo en cada petición.
+* Realizar una prueba de rendimiento con esta información y presentar resultados.
 
 **No Olvides**
 
-* Configurar el Proxy para la comunicación entre las herramientas y el navegador 
+* Configurar el Proxy para la comunicación entre las herramientas y el navegador.
