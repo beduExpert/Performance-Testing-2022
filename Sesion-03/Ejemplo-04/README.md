@@ -10,11 +10,11 @@ Para las pruebas de estabilidad, utilizaremos la configuración hecha en el ejem
 
 El proceso radica en que se ejecutan por ejemplo 10 usuarios, al terminarlos vuelve y envía estos 10 usuarios, y así sucesivamente, esto se hace con el fin de encontrar fugas en el programa, saber cuándo se desborda el software en un tiempo establecido ya que el software puede recibir la cantidad de usuarios pero en algún punto puede dejar de recibir usuario o desbordar su memoria.
 
-Con base en esta información se puede determinar si se requiere optimizar la aplicación o si ya se desborda en un número muy grande de peticiones
+Con base en esta información se puede determinar si se requiere optimizar la aplicación o si ya se desborda en un número muy grande de peticiones.
 
 **Pasos**
 
-1. Primero se debe limpiar el resultado de las ejecuciones de pruebas anteriores y configuramos el thread group que para nuestro ejemplo pusimos 10 usuarios de forma concurrente pero en esta prueba le vamos a activar el check de bucle Sin fin, es decir, que sea infinito, con la finalidad de poder determinar si la aplicación funciona correctamente de forma continua. > Damos clic en ejecutar
+1. Primero se debe limpiar el resultado de las ejecuciones de pruebas anteriores y configuramos el thread group que para nuestro ejemplo pusimos 10 usuarios de forma concurrente pero en esta prueba le vamos a activar el check de bucle Sin fin, es decir, que sea infinito, con la finalidad de poder determinar si la aplicación funciona correctamente de forma continua. > Damos clic en ejecutar.
 
 ![1](https://user-images.githubusercontent.com/22419786/156089603-484e2a3a-2e89-470a-87d5-ec78f8d7f4ba.PNG)
 
@@ -28,7 +28,7 @@ Se debe tener en cuenta que cada vez que una transacción termina sus 10 usuario
 
 ![3](https://user-images.githubusercontent.com/22419786/156089581-1b798a3a-3cce-4461-88d2-3f27e3d1e734.PNG)
 
-4. Vamos a ver una de las transacciones, veremos el /home-13-0 que recibió la petición pero nunca recibió respuesta (13-1) pero esto sucede por lo que se canceló el proceso, es decir, se había enviado la petición pero al detener, la respuesta nunca llegó
+4. Vamos a ver una de las transacciones, veremos el /home-13-0 que recibió la petición pero nunca recibió respuesta (13-1) pero esto sucede por lo que se canceló el proceso, es decir, se había enviado la petición pero al detener, la respuesta nunca llegó.
 
 ![4](https://user-images.githubusercontent.com/22419786/156089572-4d6e2c9e-6d80-426b-8a78-511c5d5929c3.PNG)
 
