@@ -13,9 +13,9 @@ El reto en esta sesión consiste en generar una prueba de carga a cualquier apli
 
 - Crear un plan de pruebas con template básico de grabación.
 - Agregar los visores de resultados
-        * Gráfico de resultados.
-        * Reporte resumen.
-        * Árbol de Resultados.
+        * Gráfico de resultados
+        * Reporte resumen
+        * Árbol de Resultados
 - Identificar una aplicación web para la prueba.
 - Configurar proxy.
 - En HTTP(S) Test Script Recorder iniciar la grabación del escenario de prueba.
