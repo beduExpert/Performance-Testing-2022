@@ -1,4 +1,4 @@
-# Ejemplo # 5 - Parámetros y ejecución de prueba de Confiabilidad o Recuperación
+# Ejemplo 5: Parámetros y ejecución de prueba de Confiabilidad o Recuperación
 
 ## Objetivo
 
@@ -11,12 +11,12 @@ Estas pruebas buscan poder garantizar que al encontrarse errores en las pruebas 
 
 **Pasos**
 
-1. Después de grabada la transacción de prueba que en este caso es el login y configurados los datos para la prueba de carga, se ejecuta el escenario de prueba
+1. Después de grabada la transacción de prueba que en este caso es el login y configurados los datos para la prueba de carga, se ejecuta el escenario de prueba.
 
 ![1](https://user-images.githubusercontent.com/22419786/156106191-6b7c72f3-7e3b-4e55-9280-4015342b8880.png)
 
 
-2. Se pueden evidenciar los pasos y en el árbol de resultados, podemos ver varios pasos en rojo o con error
+2. Se pueden evidenciar los pasos y en el árbol de resultados, podemos ver varios pasos en rojo o con error.
 
 ![2](https://user-images.githubusercontent.com/22419786/156106196-be2931b7-77e1-482c-a5e2-25042e0407d3.png)
 
