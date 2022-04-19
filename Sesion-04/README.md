@@ -24,7 +24,7 @@ La parametrización de datos se puede realizar desde un archivo .csv tal como se
 
 <img src="images/structure.png" align="right" height="90"> 
 
-#### <ins>Tema 2: Parametrización a través de bases de datos: </ins>
+#### <ins>Tema 2: Parametrización a través de bases de datos </ins>
 
 La parametrización de datos se puede realizar desde cualquiera de las bases de datos tal como se evidencia en el siguiente [**`EJEMPLO 2: Parametrización de datos utilizando bases de datos`**](./Ejemplo-02).
   
