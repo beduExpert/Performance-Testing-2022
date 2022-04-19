@@ -1,13 +1,13 @@
-## Sesión 4: Parametrización de Datos en JMeter
+## Sesión 4: Parametrización de datos en JMeter
 
 <img src="../images/android-kotlin.png" align="right" height="120" hspace="10">
 <div style="text-align: justify;">
 
 ### 1. Objetivos :dart: 
 
-- Demostrar el uso de archivos externos (.csv) en la iteración de datos de los escenarios en JMeter
-- Utilizar los diferentes tipos de bases de datos en la iteración de datos de los escenarios en JMeter
-- Emplear el uso de funciones a través del control parametrizado en la iteración de datos de los escenarios en JMeter
+- Demostrar el uso de archivos externos (.csv) en la iteración de datos de los escenarios en JMeter.
+- Utilizar los diferentes tipos de bases de datos en la iteración de datos de los escenarios en JMeter.
+- Emplear el uso de funciones a través del control parametrizado en la iteración de datos de los escenarios en JMeter.
 
 ### 2. Contenido :blue_book:
 
@@ -18,7 +18,7 @@
 
 #### <ins>Tema 1: Parametrización a través de archivos externos</ins>
 
-La parametrización de datos se puede realizar desde un archivo .csv tal como se evidencia en el siguiente [**`EJEMPLO 1 - Parametrización de datos utilizando archivos externos`**](./Ejemplo-01)
+La parametrización de datos se puede realizar desde un archivo .csv tal como se evidencia en el siguiente [**`EJEMPLO 1: Parametrización de datos utilizando archivos externos`**](./Ejemplo-01).
 
 ---
 
@@ -26,7 +26,7 @@ La parametrización de datos se puede realizar desde un archivo .csv tal como se
 
 #### <ins>Tema 2: Parametrización a través de bases de datos: </ins>
 
-La parametrización de datos se puede realizar desde cualquiera de las bases de datos tal como se evidencia en el siguiente [**`EJEMPLO 2 - Parametrización de datos utilizando bases de datos`**](./Ejemplo-02)
+La parametrización de datos se puede realizar desde cualquiera de las bases de datos tal como se evidencia en el siguiente [**`EJEMPLO 2: Parametrización de datos utilizando bases de datos`**](./Ejemplo-02).
   
 ---
 
@@ -34,12 +34,12 @@ La parametrización de datos se puede realizar desde cualquiera de las bases de 
 
 #### <ins>Tema 3: Parametrización a través de controlador parametrizado</ins>
   
-La parametrización de datos se puede realizar desde cualquiera de las bases de datos tal como se evidencia en el siguiente [**`EJEMPLO 3 - Parametrización de datos utilizando el controlador parametrizado`**](./Ejemplo-03)
+La parametrización de datos se puede realizar desde cualquiera de las bases de datos tal como se evidencia en el siguiente [**`EJEMPLO 3: Parametrización de datos utilizando el controlador parametrizado`**](./Ejemplo-03).
   
   
 Con esta práctica podemos iniciar nuestro reto para interactuar con las diferentes formas de parametrización de datos en JMeter
   
-- [**`RETO 1`**](./Reto-01)
+- [**`RETO 1: Iteración de datos con CSV`**](./Reto-01)
 ---
 
 <img src="images/chaomi.png" align="right" height="110"> 
