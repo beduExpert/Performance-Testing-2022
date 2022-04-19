@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-* Elaborar pasos a paso una parametrización en JMeter utilizando archivos externos
+* Elaborar pasos a paso una parametrización en JMeter utilizando archivos externos.
 
 ## Desarrollo
 
@@ -20,22 +20,22 @@ Haga clic derecho en la solicitud de inicio de sesión -> Agregar -> Elemento de
 
 **Una breve explicación de los parámetros 'CSV Data Set Config':**
 
-* Nombre: nombre del elemento tal como se utilizará en el árbol de JMeter
-* Nombre de archivo: nombre del archivo de entrada. Los nombres de archivo relativos se resuelven en función de la ruta del plan de prueba activo. También se admiten nombres de archivo absolutos
-* Codificación de archivos: codificación del archivo de entrada, si no es el valor predeterminado de la plataforma
-* Nombres de variables: lista de nombres de variables separados que se utilizarán como contenedor para los valores analizados. Si está vacío, la primera línea del archivo se interpretará como la lista de nombres de variables
-* Delimitador: delimitador que se usará para dividir los valores analizados del archivo de entrada
+* Nombre: nombre del elemento tal como se utilizará en el árbol de JMeter.
+* Nombre de archivo: nombre del archivo de entrada. Los nombres de archivo relativos se resuelven en función de la ruta del plan de prueba activo. También se admiten nombres de archivo absolutos.
+* Codificación de archivos: codificación del archivo de entrada, si no es el valor predeterminado de la plataforma.
+* Nombres de variables: lista de nombres de variables separados que se utilizarán como contenedor para los valores analizados. Si está vacío, la primera línea del archivo se interpretará como la lista de nombres de variables.
+* Delimitador: delimitador que se usará para dividir los valores analizados del archivo de entrada.
 * ¿Permitir datos citados? - verdadero en caso de que desee ignorar las comillas dobles y permitir que dichos elementos contengan un delimitador.
 * ¿Reciclar en EOF? - verdadero en caso de que el plan de prueba del archivo deba iterar sobre el archivo más de una vez. Le indicará a JMeter que mueva el cursor al comienzo del archivo.
-* ¿Detener hilo en EOF? - falso en caso de iteración de bucle sobre el archivo CDC y verdadero si desea detener el hilo después de leer todo el archivo
+* ¿Detener hilo en EOF? - falso en caso de iteración de bucle sobre el archivo CDC y verdadero si desea detener el hilo después de leer todo el archivo.
 * Modo de uso compartido:
-    - Todos los subprocesos: el archivo se comparte entre todos los usuarios virtuales (predeterminado)
-    - Grupo de subprocesos actual: el archivo se abrirá una vez para cada grupo de subprocesos
-    - Subproceso actual: cada archivo se abrirá por separado para cada uno de los subprocesos
-    - Identificador: todos los subprocesos que comparten el mismo identificador también comparten el mismo archivo
+    - Todos los subprocesos: el archivo se comparte entre todos los usuarios virtuales (predeterminado).
+    - Grupo de subprocesos actual: el archivo se abrirá una vez para cada grupo de subprocesos.
+    - Subproceso actual: cada archivo se abrirá por separado para cada uno de los subprocesos.
+    - Identificador: todos los subprocesos que comparten el mismo identificador también comparten el mismo archivo.
 
 
-Vamos a crear un archivo csv que contenga diferentes usuarios con nombres y contraseñas
+Vamos a crear un archivo csv que contenga diferentes usuarios con nombres y contraseñas.
 
 <img width="448" alt="3" src="https://user-images.githubusercontent.com/22419786/156495294-0c74be11-5d04-46fc-8f65-519400a63431.png">
 
@@ -47,7 +47,7 @@ El último paso que tenemos que dar es parametrizar la solicitud de inicio de se
 
 <img width="671" alt="5" src="https://user-images.githubusercontent.com/22419786/156495335-40164f46-ee37-4378-8e3e-4c46e6a1f6ae.png">
 
-si ejecutamos nuestro script de prueba ahora, JMeter sustituirá estas variables con valores de los 'TestUsers. archivo csv'. Cada usuario virtual de JMeter recibirá credenciales de la siguiente línea del archivo csv.
+sí ejecutamos nuestro script de prueba ahora, JMeter sustituirá estas variables con valores de los 'TestUsers. archivo csv'. Cada usuario virtual de JMeter recibirá credenciales de la siguiente línea del archivo csv.
 
 La solicitud de inicio de sesión del primer usuario:
 
