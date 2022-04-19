@@ -1,4 +1,4 @@
-# Ejemplo # 3 - Parametrización de datos utilizando el controlador parametrizado
+# Ejemplo 3: Parametrización de datos utilizando el controlador parametrizado
 
 ## Objetivo
 
@@ -16,7 +16,7 @@ Supongamos que queremos parametrizar el flujo de trabajo de inicio de sesión:
 
 En primer lugar, debe instalar el complemento 'Controlador parametrizado', ya que no está incluido en el núcleo de JMeter. Los pasos de instalación de ese proceso se pueden encontrar aquí.
 
-Muevamos la 'Solicitud de inicio de sesión' a un controlador separado y desactívelo (haga clic con el botón derecho y seleccione "Deshabilitar"). Esta es la forma más preferible de tener un contenedor de módulos dentro de su plan de prueba y evitar usar Workbench como tal contenedor. Una vez finalizada la instalación, puede agregar dos controladores 'Controlador parametrizado' con diferentes credenciales de usuario: haga clic con el botón derecho en Grupo de subprocesos -> Agregar -> Controlador lógico -> Controlador parametrizado
+Hay que mover la 'Solicitud de inicio de sesión' a un controlador separado y desactívelo (haga clic con el botón derecho y seleccione "Deshabilitar"). Esta es la forma más preferible de tener un contenedor de módulos dentro de su plan de prueba y evitar usar Workbench como tal contenedor. Una vez finalizada la instalación, puede agregar dos controladores 'Controlador parametrizado' con diferentes credenciales de usuario: haga clic con el botón derecho en Grupo de subprocesos -> Agregar -> Controlador lógico -> Controlador parametrizado.
 
 <img width="674" alt="2" src="https://user-images.githubusercontent.com/22419786/156497577-416eef81-6fd1-46d9-8e2f-7693ce98cb28.png">
 
@@ -26,7 +26,7 @@ Los controladores parametrizados contienen la sección 'Variables definidas por 
 
 Dentro de ambos controladores parametrizados, agregue referencias al 'Controlador reutilizable' para llamar a la 'Solicitud de inicio de sesión' con diferentes parámetros. Se puede hacer de esta manera:
 
-Haga clic derecho en 'Controlador parametrizado' -> 'Agregar' -> 'Controlador lógico' -> 'Controlador de módulo'
+Haga clic derecho en 'Controlador parametrizado' -> 'Agregar' -> 'Controlador lógico' -> 'Controlador de módulo'.
 
 <img width="671" alt="4" src="https://user-images.githubusercontent.com/22419786/156497622-0f411376-f366-408e-9fa6-c9d74ba506f9.png">
 
