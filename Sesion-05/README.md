@@ -5,14 +5,14 @@
 
 ### 1. Objetivos :dart: 
 
-- Demostrar como generar métricas a partir de los resultados de ejecuciones de pruebas de rendimiento
-- Comparar resultados de ejecuciones de diferentes tipos de pruebas de rendimiento
-- Implementar los bugs en herramienta JIRA de incidencias y defectos
-- Elaborar un documento de plan de pruebas para control y formalización del proyecto
+- Demostrar como generar métricas a partir de los resultados de ejecuciones de pruebas de rendimiento.
+- Comparar resultados de ejecuciones de diferentes tipos de pruebas de rendimiento.
+- Implementar los bugs en herramienta JIRA de incidencias y defectos.
+- Elaborar un documento de plan de pruebas para control y formalización del proyecto.
 
   
 ### 2. Contenido :blue_book:
-En este work conoceremos como revisar y analizar los resultados de las pruebas de rendimiento en JMeter, conocer las métricas y evaluarlas. Además veremos como gestionar defectos encontrados y como documentar un plan de pruebas completo.
+En este work conoceremos como revisar y analizar los resultados de las pruebas de rendimiento en JMeter, conocer las métricas y evaluarlas. Además veremos cómo gestionar defectos encontrados y como documentar un plan de pruebas completo.
 
 ---
 
@@ -28,25 +28,25 @@ Desde JMeter 2.13, se pueden obtener resultados en tiempo real enviados a un bac
   
     Esta característica proporciona:
   
-      - Resultados en vivo
+      - Resultados en vivo.
       - Gráficos para métricas.
-      - Capacidad para comparar 2 o más pruebas de carga
-      - Almacenar datos de monitoreo siempre que JMeter resulte en el mismo backend
+      - Capacidad para comparar 2 o más pruebas de carga.
+      - Almacenar datos de monitoreo siempre que JMeter resulte en el mismo backend.
 * Un InfluxDBBackendListenerClient introducido en JMeter 3.2 que le permite enviar métricas a un InfluxDB Backend utilizando los protocolos UDP o HTTP. 
   
   Esta función proporciona:
 
-      - Resultados en vivo
+      - Resultados en vivo.
       - Gráficos para métricas.
-      - Capacidad para comparar 2 o más pruebas de carga
-      - Posibilidad de agregar anotaciones a los gráficos
-      - Almacenar datos de monitoreo siempre que JMeter resulte en el mismo backend
+      - Capacidad para comparar 2 o más pruebas de carga.
+      - Posibilidad de agregar anotaciones a los gráficos.
+      - Almacenar datos de monitoreo siempre que JMeter resulte en el mismo backend.
   
-En este [**`EJEMPLO 1 - Configuración para graficar los datos`**](./Ejemplo-01) presentaremos la configuración para graficar e historizar los datos en diferentes backends:
+En este [**`EJEMPLO 1: Configuración para graficar los datos`**](./Ejemplo-01) presentaremos la configuración para graficar e historiar los datos en diferentes backends:
 
-  - Configuración de InfluxDB para InfluxDBBackendListenerClient
-  - Configuración de InfluxDB para GraphiteBackendListenerClient
-  - Grafana
+  - Configuración de InfluxDB para InfluxDBBackendListenerClient.
+  - Configuración de InfluxDB para GraphiteBackendListenerClient.
+  - Grafana.
 
 ---
 
@@ -56,7 +56,7 @@ En este [**`EJEMPLO 1 - Configuración para graficar los datos`**](./Ejemplo-01)
 
 Para analizar adecuadamente los resultados de las pruebas de performance en JMeter, podemos tener en cuenta varios elementos en el proyecto JMeter y como comprender sus resultados. 
   
-En el siguiente [**`EJEMPLO 2 - Informes de Resultados en JMeter`**](./Ejemplo-02) revisaremos como.
+En el siguiente [**`EJEMPLO 2: Informes de Resultados en JMeter`**](./Ejemplo-02) revisaremos como.
 
 ---
 
@@ -64,7 +64,7 @@ En el siguiente [**`EJEMPLO 2 - Informes de Resultados en JMeter`**](./Ejemplo-0
 
 #### <ins>Tema 3: Gestión de defectos</ins>
 
-Los defectos encontrados en nuestras pruebas de rendimiento deben tener una complejidad en cuanto a su manejo porque pueden ser críticos o bajos de manera que sean bloqueantes o no, para llevar un control de los defectos se deben manejar bajo herramientas para gestión de defectos, tal como se puede evidenciar en el  [**`EJEMPLO 3 - Creación de defectos en JIRA`**](./Ejemplo-03) donde mostraremos como generar un defecto en una de las herramientas más comunes como es JIRA. 
+Los defectos encontrados en nuestras pruebas de rendimiento deben tener una complejidad en cuanto a su manejo porque pueden ser críticos o bajos de manera que sean bloqueantes o no, para llevar un control de los defectos se deben manejar bajo herramientas para gestión de defectos, tal como se puede evidenciar en el  [**`EJEMPLO 3: Creación de defectos en JIRA`**](./Ejemplo-03) donde mostraremos como generar un defecto en una de las herramientas más comunes como es JIRA. 
     
 ---
 
@@ -72,13 +72,13 @@ Los defectos encontrados en nuestras pruebas de rendimiento deben tener una comp
 
 #### <ins>Tema 4: Creación de documento con el plan de pruebas</ins>
 
-Nuestro plan de pruebas debe estar muy bien documentado y estructurado, para ello podemos basarnos en este [**`EJEMPLO 4 - Elaboración documento plan de pruebas`**](./Ejemplo-04) y poder realizar nuestro propio documento de pruebas. 
+Nuestro plan de pruebas debe estar muy bien documentado y estructurado, para ello podemos basarnos en este [**`EJEMPLO 4: Elaboración documento plan de pruebas`**](./Ejemplo-04) y poder realizar nuestro propio documento de pruebas. 
    
 ---
 
  Bienvenido a nuestro RETO de esta sesión.
   
-  - [**`RETO 1`**](./Reto-01)
+  - [**`RETO 1: Prueba de estrés con métricas y análisis de resultados`**](./Reto-01)
   
  --- 
   
